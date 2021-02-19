@@ -6,11 +6,16 @@
 body {
     background-color: grey;
 }
+.logo {
+    width: 4pc;
+    position: fixed;
+    z-index: 9999;
+}
 
 nav{
     width: 100%;
     margin: 0 auto;
-    background-color: #4768D6;
+    background-color: #800820;
     position: sticky;
     top: 0px;
     padding: 12px 0px;
@@ -40,12 +45,12 @@ nav label{
     width: 100%;
     padding: 10px 0px;
     text-align: center;
-    background-color: #4768D6;
+    background-color: #800820;
 }
 nav ul{
     display: none;
     list-style-type: none;
-    background-color: #4768D6;
+    background-color: #800820;
 }
 nav input[type=checkbox]:checked + ul{
     display: flex;
@@ -95,7 +100,7 @@ nav a{
     nav input[type=checkbox]:checked + ul, nav ul{
         display: flex;
         flex-flow: row wrap;
-        background-color: #4768D6;
+        background-color: #800820;
     }
     nav ul li{
         position: relative;
@@ -107,8 +112,8 @@ nav a{
         border-bottom: 2px solid transparent;
     }
     nav a:hover{
-        color: #C60C30;
-        border-bottom: 2px solid #C60C30;
+        color: #223484;
+        border-bottom: 2px solid #223484;
     }
     .sous{
         display: none;
