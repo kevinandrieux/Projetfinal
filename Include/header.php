@@ -16,7 +16,7 @@
   </div>
   <div class="nav-title">
     <h1 style="color: white;">Bienvenue sur Occa'z</h1>
-    <p style="color: white; padding: 2px;" >le meilleur site Occa'z</p>
+    <p style="color: white; padding: 12px;" >le meilleur site Occa'z</p>
  
     <ul class="hList">
         <li>
