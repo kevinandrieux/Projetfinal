@@ -10,25 +10,70 @@
 
 </head>
 <body>
-<img class='logo'src="./img/occazlogo.png" alt="" srcset="">
-<nav>
-    <div class="conteneur-nav">
-        <label for="mobile"><i class="fas fa-bars"></i></label>
-        <input type="checkbox" id="mobile" role='button'>
-        
-        <ul>
-            <li><a href="#">Accueil</a></li>
-            <li class='deroulant'><a href="#">Liste Annonce</a>
-                <ul class="sous">
-                    <li><a href="#">Véhicules</a></li>
-                    <li><a href="./indexinfo.php">Informatiques</a></li>
-                    <li><a href="#">Touquet</a></li>
-                </ul>
-            </li>
-            <li><button class="deposer"><a class="annonce"href="#">Deposer une annonce</a></button></li>
-        </ul>
-    </div>
-</nav>
+<header>
+    <div>
+  <img class="logo" src="./img/OccazLogo.png" alt="">
+  </div>
+  <div class="nav-title">
+    <h1 style="color: white;">Bienvenue sur Occa'z</h1>
+    <p style="color: white; padding: 2px;" >le meilleur site Occa'z</p>
+ 
+    <ul class="hList">
+        <li>
+          <a href="#click" class="menu">
+            <h2 class="menu-title">animals</h2>
+            <ul class="menu-dropdown">
+              <li>cat</li>
+              <li>dog</li>
+              <li>horse</li>
+              <li>cow</li>
+              <li>pig</li>
+            </ul>
+          </a>
+        </li>
+        <li>
+          <a href="#click" class="menu">
+            <h2 class="menu-title menu-title_2nd">names</h2>
+            <ul class="menu-dropdown">
+              <li>Kevin</li>
+              <li>Jim</li>
+              <li>Andy</li>
+            </ul>
+          </a>
+        </li>
+        <li>
+          <a href="#click" class="menu">
+            <h2 class="menu-title menu-title_3rd">things</h2>
+            <ul class="menu-dropdown">
+              <li>bench</li>
+              <li>pizza</li>
+              <li>Honda CB125</li>
+              <li>space</li>
+              <li>black matter</li>
+              <li>apple</li>
+              <li>philodendron</li>
+              <li>liver</li>
+              <li>brass</li>
+            </ul>
+          </a>
+        </li>
+        <li>
+          <a href="#click" class="menu">
+            <h2 class="menu-title menu-title_4th">Movies</h2>
+            <ul class="menu-dropdown">
+              <li>Godzilla</li>
+              <li>Man on Wire</li>
+              <li>Spirited Away</li>
+              <li>Interstellar</li>
+            </ul>
+          </a>
+        </li>
+      </ul>
+      </div>
+      <div>
+        <button class="deposer"><a class="annonce"href="#">Deposer une annonce</a></button>
+      </div>
+      </header>
     
 </body>
 </html>
