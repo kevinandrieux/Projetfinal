@@ -250,3 +250,21 @@
   flex-direction: column;
   align-items: center;
 }
+.footer {
+  margin-top: 530px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #800820 ;
+}
+.element {
+  margin-top: 8px;
+  display: inline-block;
+  color: white;
+  width: 9em;
+  height: 3em;
+  border-radius: 50em 50em 0 0;
+  text-align: center;
+} 
+.footer li {
+  display: inline-block;
+}

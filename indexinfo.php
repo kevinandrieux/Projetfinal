@@ -1,5 +1,5 @@
 <?php
-    include ('./Include/headerinfo.php');
+    include ('./Include/header.php');
 ?>
 
 
@@ -8,5 +8,5 @@
 
 
 <?php
-    include ('./Include/footerinfo.php');
+    include ('./Include/footer.php');
 ?>
