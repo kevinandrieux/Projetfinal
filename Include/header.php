@@ -20,8 +20,8 @@
             <li><a href="#">Accueil</a></li>
             <li class='deroulant'><a href="#">Liste Annonce</a>
                 <ul class="sous">
-                    <li><a href="#">Berck</a></li>
-                    <li><a href="#">Etaples</a></li>
+                    <li><a href="#">Véhicules</a></li>
+                    <li><a href="./indexinfo.php">Informatiques</a></li>
                     <li><a href="#">Touquet</a></li>
                 </ul>
             </li>

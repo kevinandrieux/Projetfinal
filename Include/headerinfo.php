@@ -10,7 +10,7 @@
 
 </head>
 <body>
-<img class='logo'src="./img/occazlogo.png" alt="" srcset="">
+<img class='logo'src="./img/OccazLogo.png" alt="" srcset="">
 <nav>
     <div class="conteneur-nav">
         <label for="mobile"><i class="fas fa-bars"></i></label>
