@@ -45,17 +45,15 @@
         </li>
         <li>
           <a href="#click" class="menu">
-            <h2 class="menu-title menu-title_3rd">things</h2>
+            <h2 class="menu-title menu-title_3rd">Sport</h2>
             <ul class="menu-dropdown">
-              <li>bench</li>
-              <li>pizza</li>
-              <li>Honda CB125</li>
-              <li>space</li>
-              <li>black matter</li>
-              <li>apple</li>
-              <li>philodendron</li>
-              <li>liver</li>
-              <li>brass</li>
+              <li>Sports collectif</li>
+              <li>Sports individuel</li>
+              <li>Sports de combat</li>
+              <li>Sports d'intérieur</li>
+              <li>Sports d'extérieur</li>
+              <li>Sports de déplacement</li>
+              <li>Loisirs d'extérieur</li>
             </ul>
           </a>
         </li>
