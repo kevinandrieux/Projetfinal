@@ -9,8 +9,8 @@
     <title>Occa'z</title>
 
 </head>
-<body>
-<header id="head">
+<body id='head'>
+<header>
     <div>
   <img class="logo" src="./img/OccazLogo.png" alt="">
   </div>
@@ -19,21 +19,10 @@
     <p style="color: white; padding-bottom: 12px;" >le meilleur site Occa'z</p>
  
     <ul class="hList">
-        <li>
-          <a href="#click" class="menu">
-            <h2 class="menu-title">animals</h2>
-            <ul class="menu-dropdown">
-              <li>cat</li>
-              <li>dog</li>
-              <li>horse</li>
-              <li>cow</li>
-              <li>pig</li>
-            </ul>
-          </a>
-        </li>
+       
         <li>
           <a href="./indexinfo.php" class="menu"  >
-            <h2 class="menu-title menu-title_2nd">Informatique</h2>
+            <h2 class="menu-title menu-title_2nd" onclick="changeClass">Informatique</h2>
             <ul class="menu-dropdown">
               <li>Ordinateurs Portables</li>
               <li>Tours</li>
@@ -70,6 +59,3 @@
         <button class="deposer"><a class="annonce"href="#">Deposer une annonce</a></button>
       </div>
       </header>
-    
-</body>
-</html>

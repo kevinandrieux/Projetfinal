@@ -16,7 +16,7 @@ a {
 .menu-title {
   margin: 0;
   display: block;
-  width: 150px;
+  width: 210px;
   height: 40px;
   padding: 12px 0 0;
   background: #9dc852;
@@ -42,14 +42,6 @@ a {
   z-index: 101;
   -webkit-transition: 0.2s 0.2s border-top ease-out, 0.3s border-top-color;
   transition: 0.2s 0.2s border-top ease-out, 0.3s border-top-color;
-}
-
-.menu-title:hover {
-  background: #8db842;
-}
-
-.menu-title:hover:before {
-  border-top-color: #8db842;
 }
 
 .menu:hover > .menu-title:before {
@@ -217,7 +209,8 @@ a {
 
 .deposer {
   border-radius: 50vh;
-  background-color: #223484;
+  background: #800820;
+  background: linear-gradient(317deg, #800820 16%, #872b76 51%, #223484 84%);
   padding: 15px;
 }
 
@@ -230,7 +223,8 @@ a {
 }
 
 header {
-  background-color: #800820;
+  background: #800820;
+  background: linear-gradient(160deg, #800820 16%, #872b76 51%, #223484 84%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -262,7 +256,8 @@ header {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  background-color: #800820;
+  background: #800820;
+  background: linear-gradient(317deg, #800820 16%, #872b76 51%, #223484 84%);
 }
 
 .element {
