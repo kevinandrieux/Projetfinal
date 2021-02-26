@@ -46,13 +46,7 @@
    0.3s border-top-color;
   }
   
-  .menu-title:hover {
-    background: #8db842;
-  }
-  
-  .menu-title:hover:before {
-    border-top-color: #8db842;
-  }
+ 
   
   .menu:hover > .menu-title:before {
     border-top-width: 0;
@@ -229,7 +223,8 @@
   }
   .deposer {
       border-radius: 50vh;
-      background-color: #223484;
+      background: rgb(128,8,32);
+      background: linear-gradient(317deg, rgba(128,8,32,1) 16%, rgba(135,43,118,1) 51%, rgba(34,52,132,1) 84%);
       padding: 15px;
   }
   .deposer:hover {
@@ -270,9 +265,3 @@ background: linear-gradient(317deg, rgba(128,8,32,1) 16%, rgba(135,43,118,1) 51%
 .footer li {
   display: inline-block;
 }
-<<<<<<< Updated upstream
-.head1{
-  background-color: blueviolet;
-}
-=======
->>>>>>> Stashed changes
