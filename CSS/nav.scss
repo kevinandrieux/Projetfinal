@@ -16,7 +16,7 @@
   .menu-title {
     margin: 0;
     display: block;
-    width: 150px;
+    width: 210px;
     height: 40px;
     padding: 12px 0 0;
     background: #9dc852;
@@ -239,7 +239,8 @@
       color: white;
   }
   header {
-    background-color: #800820;
+    background: rgb(128,8,32);
+background: linear-gradient(160deg, rgba(128,8,32,1) 16%, rgba(135,43,118,1) 51%, rgba(34,52,132,1) 84%);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -254,7 +255,8 @@
   margin-top: 530px;
   display: flex;
   justify-content: space-around;
-  background-color: #800820 ;
+  background: rgb(128,8,32);
+background: linear-gradient(317deg, rgba(128,8,32,1) 16%, rgba(135,43,118,1) 51%, rgba(34,52,132,1) 84%);
 }
 .element {
   margin-top: 8px;
@@ -268,6 +270,9 @@
 .footer li {
   display: inline-block;
 }
+<<<<<<< Updated upstream
 .head1{
   background-color: blueviolet;
 }
+=======
+>>>>>>> Stashed changes

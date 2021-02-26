@@ -16,7 +16,7 @@ a {
 .menu-title {
   margin: 0;
   display: block;
-  width: 150px;
+  width: 210px;
   height: 40px;
   padding: 12px 0 0;
   background: #9dc852;
@@ -230,7 +230,8 @@ a {
 }
 
 header {
-  background-color: #800820;
+  background: #800820;
+  background: linear-gradient(160deg, #800820 16%, #872b76 51%, #223484 84%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -262,7 +263,8 @@ header {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  background-color: #800820;
+  background: #800820;
+  background: linear-gradient(317deg, #800820 16%, #872b76 51%, #223484 84%);
 }
 
 .element {
