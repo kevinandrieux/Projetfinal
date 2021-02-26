@@ -33,11 +33,15 @@
         </li>
         <li>
           <a href="#click" class="menu">
-            <h2 class="menu-title menu-title_2nd">names</h2>
+            <h2 class="menu-title menu-title_2nd" href='./indexinfo.php'>Informatique</h2>
             <ul class="menu-dropdown">
-              <li>Kevin</li>
-              <li>Jim</li>
-              <li>Andy</li>
+              <li>Ordinateurs Portables</li>
+              <li>Tours</li>
+              <li>Moniteurs</li>
+              <li>Périphériques</li>
+              <li>Accessoires</li>
+
+
             </ul>
           </a>
         </li>
