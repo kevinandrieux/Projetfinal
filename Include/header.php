@@ -9,13 +9,8 @@
     <title>Occa'z</title>
 
 </head>
-<<<<<<< Updated upstream
-<body>
-<header class="head">
-=======
 <body id='head'>
 <header>
->>>>>>> Stashed changes
     <div>
   <img class="logo" src="./img/OccazLogo.png" alt="">
   </div>
@@ -37,13 +32,8 @@
           </a>
         </li>
         <li>
-<<<<<<< Updated upstream
-          <a href="./indexinfo.php" class="menu" >
-            <h2 class="menu-title menu-title_2nd" onclick="changetheme()">Informatique</h2>
-=======
           <a href="./indexinfo.php" class="menu"  >
             <h2 class="menu-title menu-title_2nd" onclick="changeClass">Informatique</h2>
->>>>>>> Stashed changes
             <ul class="menu-dropdown">
               <li>Ordinateurs Portables</li>
               <li>Tours</li>
