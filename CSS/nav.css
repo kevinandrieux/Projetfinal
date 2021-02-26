@@ -278,4 +278,8 @@ header {
 .footer li {
   display: inline-block;
 }
+
+.head1 {
+  background-color: blueviolet;
+}
 /*# sourceMappingURL=nav.css.map */
