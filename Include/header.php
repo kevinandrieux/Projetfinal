@@ -47,13 +47,9 @@
           <a href="#click" class="menu">
             <h2 class="menu-title menu-title_3rd">Sport</h2>
             <ul class="menu-dropdown">
-              <li>Sports collectif</li>
-              <li>Sports individuel</li>
-              <li>Sports de combat</li>
-              <li>Sports d'intérieur</li>
-              <li>Sports d'extérieur</li>
-              <li>Sports de déplacement</li>
-              <li>Loisirs d'extérieur</li>
+              <li>Sports intérieur</li>
+              <li>Sports extérieur</li>
+              <li>Accessoires</li>
             </ul>
           </a>
         </li>
