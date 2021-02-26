@@ -10,7 +10,7 @@
 
 </head>
 <body>
-<header>
+<header id="head">
     <div>
   <img class="logo" src="./img/OccazLogo.png" alt="">
   </div>
@@ -32,16 +32,14 @@
           </a>
         </li>
         <li>
-          <a href="#click" class="menu">
-            <h2 class="menu-title menu-title_2nd" href='./indexinfo.php'>Informatique</h2>
+          <a href="./indexinfo.php" class="menu">
+            <h2 class="menu-title menu-title_2nd">Informatique</h2>
             <ul class="menu-dropdown">
               <li>Ordinateurs Portables</li>
               <li>Tours</li>
               <li>Moniteurs</li>
               <li>Périphériques</li>
               <li>Accessoires</li>
-
-
             </ul>
           </a>
         </li>

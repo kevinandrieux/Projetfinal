@@ -7,5 +7,8 @@
             </ul>
         </nav>
 </footer>
+<script src="jquery-3.5.1.min.js"></script>
+<script src="jquery-ui.js"></script>
+<script src="fonctions.js"></script>
 </body>
 </html>
