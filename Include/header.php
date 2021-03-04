@@ -56,6 +56,9 @@
       </ul>
       </div>
       <div>
-        <button class="deposer"><a class="annonce"href="#">Deposer une annonce</a></button>
+        <button class="deposer"><a class="annonce" href="./inscription.php">Inscription</a></button>
+      </div>
+      <div>
+        <button class="deposer"><a class="annonce" href="./connexion.php">Connexion</a></button>
       </div>
       </header>
