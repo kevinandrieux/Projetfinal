@@ -36,11 +36,11 @@
         </li>
         <li>
           <li class="menu">
-            <a href="#"><h2 class="menu-title menu-title_3rd">Sport</h2></a>
+            <a href="./Sport.php"><h2 class="menu-title menu-title_3rd">Sport</h2></a>
             <ul class="menu-dropdown">
-              <li><a href="#">Sports intérieur</a></li>
-              <li> <a href="#">Sports extérieur</a></li>
-              <li><a href="">Accessoires</a></li>
+              <li><a href="./sports_collectifs.php">Sports collectifs</a></li>
+              <li> <a href="./sports_individuels.php">Sports individuels</a></li>
+              <li><a href="./sports_accessoire.php">Accessoires</a></li>
             </ul>
           </li>
         </li>
