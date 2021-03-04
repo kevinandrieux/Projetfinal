@@ -10,7 +10,7 @@
 
 <legend>Inscrivez-vous dès maintenant!</legend>
 
-<form action="./inscfonction.php" method="POST">
+<form action="./include/inscfonction.php" method="POST">
 
 <label for="username">Nom d'Utilisateur:</label>
 <input type="text" name="username" id="usname" required>
