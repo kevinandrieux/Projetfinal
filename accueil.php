@@ -9,7 +9,7 @@
           Quod sapiente, deserunt debitis magnam minima nobis rem explicabo aliquam quis accusantium dolor, dicta amet id ducimus omnis cupiditate eos, veritatis temporibus labore natus excepturi. Facere iure assumenda alias deserunt.</p>
         </section>
         <section class="slider">
-         
+          
 <div id="slider">
 <figure>
 <img src="./img/BannièreJV.jpg" alt>

@@ -1,10 +1,10 @@
 <?php
-include ("./Include/header.php")
+include ("./Include/header.php");
 ?>
 <link rel="stylesheet" href="./sport_interieur.php">
 <link rel="stylesheet" href="./sport_exterieur.php">
 <link rel="stylesheet" href="./sport_accessoire.php">
-<link rel="stylesheet" href="./CSS/">
+
 
 <section class="intro"></section>
 <h1>Acceuil de la rubrique sport</h1>
@@ -12,6 +12,15 @@ include ("./Include/header.php")
 <p>Vous retrouvez sur cette rubrique, tous les articles de sports d'intérieur, exterieur ainsi que des accessoires pour clubs et particuliers</p>
 </section>
 <br>
+
+<section class="galerie">
+<div>
+<img src="./img/Photos_contenu/Sport interieur/Presentation_sport_interieur.PNG" alt="">
+<img src="./img/Photos_contenu/Sport exterieur/sport_exterieur.png" alt="">
+<img src="./img/Photos_contenu/accessoires logo.png" alt="">
+</div>
+
+
 
 
 
