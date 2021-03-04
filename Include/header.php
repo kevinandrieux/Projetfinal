@@ -24,34 +24,34 @@
     <ul class="hList">
        
         <li>
-          <a href="./indexinfo.php" class="menu"  >
+          <li class="menu">
             <h2 class="menu-title menu-title_2nd" onclick="changeClass">Informatique</h2>
             <ul class="menu-dropdown">
-              <li>Ordinateurs Portables</li>
-              <li>Tours</li>
-              <li>Moniteurs</li>
-              <li>Périphériques</li>
-              <li>Accessoires</li>
+              <li><a href="#">Ordinateurs Portables</a></li>
+              <li><a href="">Tours</a></li>
+              <li><a href="">Périphériques</a></li>
+              <li><a>Accessoires</a></li>
             </ul>
           </a>
         </li>
         <li>
-          <a href="#click" class="menu">
-            <h2 class="menu-title menu-title_3rd">Sport</h2>
+          <li class="menu">
+            <a href="#"><h2 class="menu-title menu-title_3rd">Sport</h2></a>
             <ul class="menu-dropdown">
-              <li>Sports intérieur</li>
-              <li>Sports extérieur</li>
-              <li>Accessoires</li>
+              <li><a href="#">Sports intérieur</a></li>
+              <li> <a href="#">Sports extérieur</a></li>
+              <li><a href="">Accessoires</a></li>
             </ul>
-          </a>
+          </li>
         </li>
         <li>
-          <a href="#click" class="menu">
-            <h2 class="menu-title menu-title_4th">Jeux Video</h2>
+          <li class="menu">
+            <a href="#"><h2 class="menu-title menu-title_4th">Jeux Video</h2></a>
             <ul class="menu-dropdown">
-              <li>Console</li>
-              <li>Jeux</li>
-              <li>Accessoires</li>
+              <li><a href="#">Console</a></li>
+              <li><a href="#">Jeux</a></li>
+              <li><a href="#">Accessoires</a></li>
+              
             </ul>
           </a>
         </li>
