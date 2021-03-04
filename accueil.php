@@ -9,14 +9,11 @@
           Quod sapiente, deserunt debitis magnam minima nobis rem explicabo aliquam quis accusantium dolor, dicta amet id ducimus omnis cupiditate eos, veritatis temporibus labore natus excepturi. Facere iure assumenda alias deserunt.</p>
         </section>
         <section class="slider">
-          <base href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/">
 <div id="slider">
 <figure>
-<img src="austin-fireworks.jpg" alt>
-<img src="taj-mahal_copy.jpg" alt>
-<img src="ibiza.jpg" alt>
-<img src="ankor-wat.jpg" alt>
-<img src="austin-fireworks.jpg" alt>
+<img src="./img/BannièreJV.jpg" alt>
+<img src="./img/BannièreInfo.jpg" alt>
+<img src="./img/BannièreSP.jpg" alt>
 </figure>
 </div>
 <aside>

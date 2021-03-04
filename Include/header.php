@@ -12,9 +12,11 @@
 </head>
 <body id='head'>
 <header>
+  <a href="./index.php">
     <div>
-  <img class="logo" src="./img/OccazLogo.png" alt="">
+  <img class="logo" src="./img/OccazLogo.png" >
   </div>
+  </a>
   <div class="nav-title">
     <h1 style="color: white;">Bienvenue sur Occa'z</h1>
     <p style="color: white; padding-bottom: 12px;" >le meilleur site Occa'z</p>

@@ -27,13 +27,6 @@
 <input type="password" name="confirm_pass" id="confpass" required>
 
 
-
-<label for="user_kind">Administrateur</label>
-<input type="radio" name="user_kind" id="ad" value="1">
-
-<label for="user_kind">Membre</label>
-<input type="radio" name="user_kind" id="mem" value="2" checked>
-
 <button type="submit">Inscription</button>
 
 </form>

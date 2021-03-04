@@ -12,9 +12,6 @@ elseif(empty($_POST['nom'])){
 elseif(empty($_POST['prenom'])){
     echo 'Veuillez renseigner votre prénom';
 }
-elseif(empty($_POST['user_kind'])){
-    echo 'Erreur user_kind';
-}
 elseif(empty($_POST['mail'])){
     echo 'Veuillez renseigner votre mail';
 }
@@ -29,9 +26,9 @@ elseif(($_POST['user_pass']) != ($_POST['confirm_pass'])){
 }
 if(empty($errors)) {
     require "./database.php";
-    $req = $pdo->prepare("INSERT INTO users SET username = ?, nom = ?, prenom = ?, mail = ?, user_pass = ?, user_kind = ? ");
+    $req = $pdo->prepare("INSERT INTO users SET username = ?, nom = ?, prenom = ?, mail = ?, user_pass = ? ");
     $password = password_hash($_POST['user_pass'], PASSWORD_BCRYPT);
-$req->execute([$_POST['username'], $_POST['nom'], $_POST['prenom'], $_POST['mail'], $password, $_POST['user_kind']]);
+$req->execute([$_POST['username'], $_POST['nom'], $_POST['prenom'], $_POST['mail'], $password]);
 header('location: connexion.php');
 
 exit();
