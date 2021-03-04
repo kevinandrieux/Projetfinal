@@ -1,7 +1,11 @@
 <?php
     include './Include/header.php';
 ?>
-
+<div style="display: flex; justify-content: center;padding: 40px 0px 0px; ">
+<div class="formulaire">
+    <h1>
+        Inscription
+    </h1>
 <fieldset>
 
 <legend>Inscrivez-vous dès maintenant!</legend>
@@ -27,18 +31,14 @@
 <input type="password" name="confirm_pass" id="confpass" required>
 
 
-
-<label for="user_kind">Administrateur</label>
-<input type="radio" name="user_kind" id="ad" value="1">
-
-<label for="user_kind">Membre</label>
-<input type="radio" name="user_kind" id="mem" value="2" checked>
-
-<button type="submit">Inscription</button>
+<button type="submit" class="deposer" style="padding: 15px 33px; color:white;">Inscription</button>
 
 </form>
 
+
 </fieldset>
+</div>
+</div>
 
 
 

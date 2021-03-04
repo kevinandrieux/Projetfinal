@@ -12,11 +12,9 @@
           
 <div id="slider">
 <figure>
-<img src="austin-fireworks.jpg" alt>
-<img src="taj-mahal_copy.jpg" alt>
-<img src="ibiza.jpg" alt>
-<img src="ankor-wat.jpg" alt>
-<img src="austin-fireworks.jpg" alt>
+<img src="./img/BannièreJV.jpg" alt>
+<img src="./img/BannièreInfo.jpg" alt>
+<img src="./img/BannièreSP.jpg" alt>
 </figure>
 </div>
 <aside>
