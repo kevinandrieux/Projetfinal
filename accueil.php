@@ -26,7 +26,7 @@
 </div>
   <div class="article">
     <div>
-    <img class='imagerecent' src="./img/BannièreInfo.jpg" alt="">
+    <img class='imagerecent' src="./img/BannièreJV.jpg" alt="">
   </div>
     <div class="prix"><h3>nom de l'article</h3>
     <p>prix</p></div> 
