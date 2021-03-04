@@ -1,7 +1,7 @@
 <?php
     include './Include/header.php';
 ?>
-<!-- <div style="display: flex; justify-content: center;padding: 40px 0px 0px; "> -->
+<div style="display: flex; justify-content: center;padding: 40px 0px 0px; ">
 <div class="formulaire">
     <h1>
         Inscription
