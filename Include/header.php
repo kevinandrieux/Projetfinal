@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/nav.css">
+    <link rel="stylesheet" href="./CSS/carrousel.css">
     <script src="https://kit.fontawesome.com/f03e221f59.js" crossorigin="anonymous"></script>
     <title>Occa'z</title>
 
@@ -44,12 +45,11 @@
         </li>
         <li>
           <a href="#click" class="menu">
-            <h2 class="menu-title menu-title_4th">Movies</h2>
+            <h2 class="menu-title menu-title_4th">Jeux Video</h2>
             <ul class="menu-dropdown">
-              <li>Godzilla</li>
-              <li>Man on Wire</li>
-              <li>Spirited Away</li>
-              <li>Interstellar</li>
+              <li>Console</li>
+              <li>Jeux</li>
+              <li>Accessoires</li>
             </ul>
           </a>
         </li>
