@@ -27,7 +27,7 @@
        
         <li>
           <li class="menu">
-            <a href="./indexinfo.php" class="menu-title menu-title_2nd">Informatique</h2></a>
+            <a href="./indexinfo.php" class="menu-title menu-title_2nd"><h2>Informatique</h2></a>
             <ul class="menu-dropdown">
               <li><a href="#">Ordinateurs Portables</a></li>
               <li><a href="">Tours</a></li>
