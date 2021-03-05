@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: antiquewhite;
+  background-color: #E3CFB8;
 }
 
 a {
@@ -597,5 +597,17 @@ nav a {
      object-fit: contain;
   border-top-left-radius: 13%;
   border-top-right-radius: 13%;
+}
+
+.hover {
+  -webkit-transform: scale(1);
+  transform: scale();
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.hover:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 /*# sourceMappingURL=nav.css.map */

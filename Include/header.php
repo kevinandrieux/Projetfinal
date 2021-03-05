@@ -58,7 +58,7 @@
       </ul>
       </div>
       <div style="display: grid;">
-        <button class="deposer"><a class="annonce" href="./inscription.php" style="margin-bottom: 12px;">Inscription</a></button>
+        <button class="deposer" style="margin-bottom: 12px"><a class="annonce" href="./inscription.php">Inscription</a></button>
         <button class="deposer"><a class="annonce" href="./connexion.php">Connexion</a></button>
       </div>
       </header>

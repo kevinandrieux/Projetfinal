@@ -5,7 +5,7 @@
 <div class="container">
 
 <div class="card-container">
-    <div class="">
+    <div class="hover">
             <a href="">
                 <div class="card">
                     <img src="./img/Info/portable.png" alt="Random photo" class="card-img">
@@ -16,7 +16,7 @@
             </a>
         </div>
 
-    <div class="">
+    <div class="hover">
             <a href="">
                 <div class="card">
                     <img src="./img/Info/fixe.png" alt="Random photo" class="card-img">
@@ -27,7 +27,7 @@
             </a>
         </div>
 
-    <div class=>
+    <div class="hover">
             <a href="">
                 <div class="card">
                     <img src="./img/Info/périphériques.png" alt="Random photo" class="card-img">
