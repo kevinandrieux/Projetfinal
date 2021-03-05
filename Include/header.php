@@ -52,8 +52,7 @@
               <li><a href="#">Console</a></li>
               <li><a href="#">Jeux</a></li>
               <li><a href="#">Accessoires</a></li>
-              
-            </ul>
+              </ul>
           </a>
         </li>
       </ul>
