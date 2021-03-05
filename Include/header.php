@@ -7,11 +7,12 @@
     <link rel="stylesheet" href="./CSS/nav.css">
     <link rel="stylesheet" href="./CSS/carrousel.css">
     <script src="https://kit.fontawesome.com/f03e221f59.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="./img/OccazLogo.png" />
     <title>Occa'z</title>
 
 </head>
 <body id='head'>
-<header>
+<header class="respon">
   <a href="./index.php">
     <div>
   <img class="logo" src="./img/OccazLogo.png" >
@@ -64,3 +65,21 @@
         <button class="deposer"><a class="annonce" href="./connexion.php">Connexion</a></button>
       </div>
       </header>
+      <nav class="resp">
+    <div class="conteneur-nav">
+        <label for="mobile"><i class="fas fa-bars"></i></label>
+        <input type="checkbox" id="mobile" role='button'>
+        
+        <ul>
+            <li><a href="#">Accueil</a></li>
+            <li class='deroulant'><a href="#">Liste Annonce</a>
+                <ul class="sous">
+                    <li><a href="#">Berck</a></li>
+                    <li><a href="#">Etaples</a></li>
+                    <li><a href="#">Touquet</a></li>
+                </ul>
+            </li>
+            <li><button class="deposer"><a class="annonce"href="#">Deposer une annonce</a></button></li>
+        </ul>
+    </div>
+</nav>
