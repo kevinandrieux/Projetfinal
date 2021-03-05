@@ -238,9 +238,11 @@
       background: rgb(128,8,32);
       background: linear-gradient(317deg, rgba(128,8,32,1) 16%, rgba(135,43,118,1) 51%, rgba(34,52,132,1) 84%);
       padding: 15px;
+      transition: 0.5s;
+      z-index: 1000;
   }
   .deposer:hover {
-      background-color:black;
+      background-position: right center;
   }
   .annonce {
       color: white;
@@ -311,12 +313,7 @@ nav{
   top: 0px;
   padding: 12px 0px;
 }
-.deposer {
-  border-radius: 50vh;
-  padding-left: 10px;
-  padding-right: 10px;
-  background-color: #223484;
-}
+
 .annonce {
   color: white;
 }
