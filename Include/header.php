@@ -26,12 +26,11 @@
        
         <li>
           <li class="menu">
-            <h2 class="menu-title menu-title_2nd" onclick="changeClass">Informatique</h2>
+            <a href="./indexinfo.php" class="menu-title menu-title_2nd">Informatique</h2></a>
             <ul class="menu-dropdown">
               <li><a href="#">Ordinateurs Portables</a></li>
               <li><a href="">Tours</a></li>
-              <li><a href="">Périphériques</a></li>
-              <li><a>Accessoires</a></li>
+              <li><a href="">Périphériques & Accessoires</a></li>
             </ul>
           </a>
         </li>
