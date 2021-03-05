@@ -1,6 +1,7 @@
 @charset "UTF-8";
 * {
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -229,10 +230,13 @@ footer {
   background: #800820;
   background: linear-gradient(317deg, #800820 16%, #872b76 51%, #223484 84%);
   padding: 15px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  z-index: 1000;
 }
 
 .deposer:hover {
-  background-color: black;
+  background-position: right center;
 }
 
 .annonce {
@@ -340,13 +344,6 @@ nav {
   position: sticky;
   top: 0px;
   padding: 12px 0px;
-}
-
-.deposer {
-  border-radius: 50vh;
-  padding-left: 10px;
-  padding-right: 10px;
-  background-color: #223484;
 }
 
 .annonce {

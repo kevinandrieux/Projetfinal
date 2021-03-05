@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./CSS/carrousel.css">
     <script src="https://kit.fontawesome.com/f03e221f59.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" type="image/x-icon" href="./img/OccazLogo.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <title>Occa'z</title>
 
 </head>
@@ -57,10 +58,8 @@
         </li>
       </ul>
       </div>
-      <div>
-        <button class="deposer"><a class="annonce" href="./inscription.php">Inscription</a></button>
-      </div>
-      <div>
+      <div style="display: grid;">
+        <button class="deposer"><a class="annonce" href="./inscription.php" style="margin-bottom: 12px;">Inscription</a></button>
         <button class="deposer"><a class="annonce" href="./connexion.php">Connexion</a></button>
       </div>
       </header>
