@@ -1,4 +1,4 @@
-body{
+.section{
     margin: 0;
     padding: 0;
     background-color: grey;
@@ -7,7 +7,7 @@ body{
     display: flex;
     justify-content: center;
 }
-
+.
 
 .card {
     align-items: center;

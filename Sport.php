@@ -4,7 +4,7 @@ include ("./Include/header.php");
 
 <link rel="stylesheet" href="./CSS/card.css">
 
-
+<section class="section">
 <a href="./sports_collectifs.php">
 <div class="card">
 <img src="./img/sport_collectif.jpg" alt=""  class="img">
@@ -34,7 +34,7 @@ include ("./Include/header.php");
     <p>Vous trouverez dans cette rubrique les annonces concernant les articles:</p>
 </div>
 </a>
-
+</section>
 
 
 
