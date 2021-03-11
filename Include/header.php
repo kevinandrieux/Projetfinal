@@ -10,7 +10,6 @@
     <link rel="shortcut icon" type="image/x-icon" href="./img/OccazLogo.png" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <title>Occa'z</title>
-
 </head>
 <body id='head'>
 <header class="respon">
@@ -29,9 +28,9 @@
           <li class="menu">
             <a href="./indexinfo.php" class="menu-title menu-title_2nd"><h2>Informatique</h2></a>
             <ul class="menu-dropdown">
-              <li><a href="#">Ordinateurs Portables</a></li>
-              <li><a href="">Tours</a></li>
-              <li><a href="">Périphériques & Accessoires</a></li>
+              <li><a href="./indexinfo_port.php">Ordinateurs Portables</a></li>
+              <li><a href="./indexinfo_fix.php">Ordinateurs Fixes</a></li>
+              <li><a href="./indexinfo_periph.php">Périphériques & Accessoires</a></li>
             </ul>
           </a>
         </li>

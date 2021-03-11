@@ -12,7 +12,7 @@
           
 <div id="slider">
 <figure>
-<img src="./img/BannièreJV.jpg" alt>
+<a href=""><img src="./img/BannièreJV.jpg" alt></a>
 <img src="./img/BannièreInfo.jpg" alt>
 <img src="./img/BannièreSP.jpg" alt>
 </figure>
