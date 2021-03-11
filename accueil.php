@@ -12,9 +12,9 @@
           
 <div id="slider">
 <figure>
-<a href=""><img src="./img/BannièreJV.jpg" alt></a>
-<img src="./img/BannièreInfo.jpg" alt>
-<img src="./img/BannièreSP.jpg" alt>
+<a href="./indexjv.php"><img src="./img/BannièreJV.jpg" alt></a>
+<a href="./indexinfo.php"><img src="./img/BannièreInfo.jpg" alt></a>
+<a href="./Sport.php"><img src="./img/BannièreSP.jpg" alt></a>
 </figure>
 </div>
 <aside>

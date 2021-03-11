@@ -1,7 +1,7 @@
 <?php
     include './Include/header.php';
 ?>
-    <h1 class="title_info" style="text-align:center; padding-top:10px">Ordinateurs Portables</h1>
+<h1 class="title_info" style="text-align:center; padding-top:10px">Ordinateurs Portables</h1>
 
 <main class="list_art">
 
