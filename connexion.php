@@ -6,7 +6,7 @@
 <div class="formulaire">
 <fieldset>
 <legend>Connexion</legend>
-<form action="./connect_exe.php" method="POST">
+<form action="./Include/connect_exe.php" method="POST">
 
 <label for="username">Nom d'Utilisateur</label>
 <input type="text" name="username" id="usname">

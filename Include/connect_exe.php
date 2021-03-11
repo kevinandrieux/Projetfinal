@@ -24,10 +24,10 @@ else{
             if(password_verify($_POST['user_pass'], $result['user_pass'])) {
                 session_start();
                 $_SESSION['username'] = $_POST['username'];
-                exit(header('location: confirm_connect.php'));
+                exit(header('location: ../confirm_connect.php'));
             } else{
                 echo 'echec';
-                header('location: connexion.php');
+                header('location: ../connexion.php');
             }
         }
         else {

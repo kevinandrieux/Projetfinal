@@ -24,12 +24,12 @@ elseif(empty($_POST['user_pass'])){
 elseif(($_POST['user_pass']) != ($_POST['confirm_pass'])){
     echo 'Votre mot de passe doit être identique à la confirmation';
 }
-if(empty($errors)) {
+else {
     require "./database.php";
     $req = $pdo->prepare("INSERT INTO users SET username = ?, nom = ?, prenom = ?, mail = ?, user_pass = ? ");
     $password = password_hash($_POST['user_pass'], PASSWORD_BCRYPT);
 $req->execute([$_POST['username'], $_POST['nom'], $_POST['prenom'], $_POST['mail'], $password]);
-header('location: connexion.php');
+header('location: ../connexion.php');
 
 exit();
 }

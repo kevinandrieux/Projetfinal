@@ -7,11 +7,13 @@
     <link rel="stylesheet" href="./CSS/nav.css">
     <link rel="stylesheet" href="./CSS/carrousel.css">
     <script src="https://kit.fontawesome.com/f03e221f59.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="./img/OccazLogo.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <title>Occa'z</title>
 
 </head>
 <body id='head'>
-<header>
+<header class="respon">
   <a href="./index.php">
     <div>
   <img class="logo" src="./img/OccazLogo.png" >
@@ -25,12 +27,11 @@
        
         <li>
           <li class="menu">
-            <h2 class="menu-title menu-title_2nd" onclick="changeClass">Informatique</h2>
+            <a href="./indexinfo.php" class="menu-title menu-title_2nd"><h2>Informatique</h2></a>
             <ul class="menu-dropdown">
               <li><a href="#">Ordinateurs Portables</a></li>
               <li><a href="">Tours</a></li>
-              <li><a href="">Périphériques</a></li>
-              <li><a>Accessoires</a></li>
+              <li><a href="">Périphériques & Accessoires</a></li>
             </ul>
           </a>
         </li>
@@ -51,16 +52,31 @@
               <li><a href="#">Console</a></li>
               <li><a href="#">Jeux</a></li>
               <li><a href="#">Accessoires</a></li>
-              
-            </ul>
+              </ul>
           </a>
         </li>
       </ul>
       </div>
-      <div>
-        <button class="deposer"><a class="annonce" href="./inscription.php">Inscription</a></button>
-      </div>
-      <div>
+      <div style="display: grid;">
+        <button class="deposer"><a class="annonce" href="./inscription.php" style="margin-bottom: 12px;">Inscription</a></button>
         <button class="deposer"><a class="annonce" href="./connexion.php">Connexion</a></button>
       </div>
       </header>
+      <nav class="resp">
+    <div class="conteneur-nav">
+        <label for="mobile"><i class="fas fa-bars"></i></label>
+        <input type="checkbox" id="mobile" role='button'>
+        
+        <ul>
+            <li><a href="#">Accueil</a></li>
+            <li class='deroulant'><a href="#">Liste Annonce</a>
+                <ul class="sous">
+                    <li><a href="#">Berck</a></li>
+                    <li><a href="#">Etaples</a></li>
+                    <li><a href="#">Touquet</a></li>
+                </ul>
+            </li>
+            <li><button class="deposer"><a class="annonce"href="#">Deposer une annonce</a></button></li>
+        </ul>
+    </div>
+</nav>
