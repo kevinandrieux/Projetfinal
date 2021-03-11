@@ -2,7 +2,8 @@
     text-align: center;
     align-items: center;
     display: grid;
-    grid-template-columns: 2fr 3fr 3fr 10fr;
+    grid-template-columns: 3fr 3fr 3fr;
+    padding-left: 0.3em;
 }
 .card2 {
     display: flex;
@@ -22,7 +23,7 @@
     height: 300px;
     margin: 1rem;
     position: relative;
-    width: 230px;
+    width: 250px;
     -webkit-transition: ease-in-out 1s;
     transition: ease-in-out 1;
     background: linear-gradient(127deg, #800820 16%, #872b76 51%, #223484 84%);
@@ -45,3 +46,6 @@
    
 }
 
+.list_art{
+    display:flex;
+}
