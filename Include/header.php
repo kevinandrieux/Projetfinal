@@ -40,7 +40,7 @@
             <ul class="menu-dropdown">
               <li><a href="./sports_collectifs.php">Sports collectifs</a></li>
               <li> <a href="./sports_individuels.php">Sports individuels</a></li>
-              <li><a href="./sports_accessoire.php">Accessoires</a></li>
+              <li><a href="./sports_accessoire.php">Sports de raquette</a></li>
             </ul>
           </li>
         </li>
