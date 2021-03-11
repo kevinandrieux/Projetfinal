@@ -7,9 +7,11 @@ include ("./Include/header.php");
 <section class="section">
 <a href="./sports_collectifs.php">
 <div class="card">
-<img src="./img/sport_collectif.jpg" alt=""  class="img">
+    <img src="./img/sport_collectif.jpg" alt=""  class="img">
+    <div class="card2">
     <h4>Sports collectifs</h4>
     <p>Vous trouverez dans cette rubrique les annonces concernant les articles:</p>
+</div>
 </div>
 </a>
 
@@ -18,8 +20,10 @@ include ("./Include/header.php");
 <a href="./sports_individuels.php">
 <div class="card">
 <img src="./img/sport_individuel.jfif" alt=""  class="img">
-    <h4>Sports individuel</h4>
-    <p>Vous trouverez dans cette rubrique les annonces concernant les articles:</p>
+<div class="card2">
+<h4>Sports individuel</h4>
+<p>Vous trouverez dans cette rubrique les annonces concernant les articles:</p>
+</div>
 </div>
 </a>
 
@@ -29,9 +33,56 @@ include ("./Include/header.php");
 
 <a href="./sport_raquette.php">
 <div class="card">
-<img src="./img/sport_raquette.jfif" alt=""  class="img">
+    <img src="./img/sport_raquette.jfif" alt=""  class="img">
+    <div class="card2">
     <h4>Sports de raquettes</h4>
     <p>Vous trouverez dans cette rubrique les annonces concernant les articles:</p>
+</div>
+</div>
+</a>
+<a href="./sport_raquette.php">
+<div class="card">
+    <img src="./img/sport_raquette.jfif" alt=""  class="img">
+    <div class="card2">
+    <h4>Sports de raquettes</h4>
+    <p>Vous trouverez dans cette rubrique les annonces concernant les articles:</p>
+</div>
+</div>
+</a>
+<a href="./sport_raquette.php">
+<div class="card">
+    <img src="./img/sport_raquette.jfif" alt=""  class="img">
+    <div class="card2">
+    <h4>Sports de raquettes</h4>
+    <p>Vous trouverez dans cette rubrique les annonces concernant les articles:</p>
+</div>
+</div>
+</a>
+<a href="./sport_raquette.php">
+<div class="card">
+    <img src="./img/sport_raquette.jfif" alt=""  class="img">
+    <div class="card2">
+    <h4>Sports de raquettes</h4>
+    <p>Vous trouverez dans cette rubrique les annonces concernant les articles:</p>
+</div>
+</div>
+</a>
+<a href="./sport_raquette.php">
+<div class="card">
+    <img src="./img/sport_raquette.jfif" alt=""  class="img">
+    <div class="card2">
+    <h4>Sports de raquettes</h4>
+    <p>Vous trouverez dans cette rubrique les annonces concernant les articles:</p>
+</div>
+</div>
+</a>
+<a href="./sport_raquette.php">
+<div class="card">
+    <img src="./img/sport_raquette.jfif" alt=""  class="img">
+    <div class="card2">
+    <h4>Sports de raquettes</h4>
+    <p>Vous trouverez dans cette rubrique les annonces concernant les articles:</p>
+</div>
 </div>
 </a>
 </section>
