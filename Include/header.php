@@ -10,7 +10,6 @@
     <link rel="shortcut icon" type="image/x-icon" href="./img/OccazLogo.png" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <title>Occa'z</title>
-
 </head>
 <body id='head'>
 <header class="respon">
@@ -29,9 +28,9 @@
           <li class="menu">
             <a href="./indexinfo.php" class="menu-title menu-title_2nd"><h2>Informatique</h2></a>
             <ul class="menu-dropdown">
-              <li><a href="#">Ordinateurs Portables</a></li>
-              <li><a href="">Tours</a></li>
-              <li><a href="">Périphériques & Accessoires</a></li>
+              <li><a href="./indexinfo_port.php">Ordinateurs Portables</a></li>
+              <li><a href="./indexinfo_fix.php">Ordinateurs Fixes</a></li>
+              <li><a href="./indexinfo_periph.php">Périphériques & Accessoires</a></li>
             </ul>
           </a>
         </li>
@@ -41,7 +40,7 @@
             <ul class="menu-dropdown">
               <li><a href="./sports_collectifs.php">Sports collectifs</a></li>
               <li> <a href="./sports_individuels.php">Sports individuels</a></li>
-              <li><a href="./sports_accessoire.php">Accessoires</a></li>
+              <li><a href="./sports_accessoire.php">Sports de raquette</a></li>
             </ul>
           </li>
         </li>
@@ -58,7 +57,7 @@
       </ul>
       </div>
       <div style="display: grid;">
-        <button class="deposer"><a class="annonce" href="./inscription.php" style="margin-bottom: 12px;">Inscription</a></button>
+        <button class="deposer" style="margin-bottom: 12px"><a class="annonce" href="./inscription.php">Inscription</a></button>
         <button class="deposer"><a class="annonce" href="./connexion.php">Connexion</a></button>
       </div>
       </header>

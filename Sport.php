@@ -10,7 +10,8 @@ include ("./Include/header.php");
     <img src="./img/sport_collectif.jpg" alt=""  class="img">
     <div class="card2">
     <h4>Sports collectifs</h4>
-    <p>Vous trouverez dans cette rubrique les annonces concernant les articles:</p>
+    <br>
+    <p>Vous trouverez dans cette rubrique les annonces concernant les articles</p>
 </div>
 </div>
 </a>
@@ -45,7 +46,8 @@ include ("./Include/header.php");
     <img src="./img/sport_raquette.jfif" alt=""  class="img">
     <div class="card2">
     <h4>Sports de raquettes</h4>
-    <p>Vous trouverez dans cette rubrique les annonces concernant les articles:</p>
+    <br>
+    <p>Vous trouverez dans cette rubrique les annonces concernant les articles</p>
 </div>
 </div>
 </a>
