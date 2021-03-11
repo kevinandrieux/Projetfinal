@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="./CSS/carrousel.css">
       <main>
         <section class="description">
-          <h1 style="padding: 20px;">Description du site</h1>
+          <h1 class="title_info" style="padding: 20px;">Description du site</h1>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime aliquam laboriosam reprehenderit ullam iusto dignissimos incidunt, vitae optio impedit autem tempore, molestiae omnis temporibus soluta id consequuntur cum odit nobis?
           Obcaecati sapiente, aliquid error pariatur in sint inventore at quae molestias earum exercitationem officia repellendus aspernatur assumenda sequi illum fugit, eaque, libero voluptatibus iure commodi perspiciatis repudiandae. Eos, reprehenderit ab.
           Impedit mollitia placeat cumque? Optio error blanditiis necessitatibus cumque hic, rerum possimus impedit quaerat sed dolores ut nam est eaque omnis quis minima perspiciatis eos facere porro. Asperiores, doloremque doloribus.
