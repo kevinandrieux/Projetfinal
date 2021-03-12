@@ -57,8 +57,15 @@
       </ul>
       </div>
       <div style="display: grid;">
-        <button class="deposer" style="margin-bottom: 12px"><a class="annonce" href="./inscription.php">Inscription</a></button>
-        <button class="deposer"><a class="annonce" href="./connexion.php">Connexion</a></button>
+        <?php
+        session_start();
+        if(isset($_SESSION['username'])){
+        echo '<button class="deposer"><a class="annonce" href="./Include/deco_exe.php">Déconnexion</a></button>';
+        }
+        else{
+          echo '<button class="deposer"><a class="annonce" href="./connexion.php">Connexion</a></button>';
+        }
+        ?>
       </div>
       </header>
       <nav class="resp">

@@ -17,6 +17,8 @@
 <button type="submit" name="submit" class="deposer" style="padding: 15px 33px; color:white;">Connexion</button>
 
 </form>
+<legend style="padding-top: 30px; text-align: center;">Pas encore inscrit? <a href="./inscription.php" id="insc_link"> Inscrivez-vous ici!</a>
+</legend>
 </fieldset>
 </div>
 </div>

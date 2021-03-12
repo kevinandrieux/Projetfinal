@@ -640,4 +640,15 @@ nav a {
   -webkit-text-fill-color: transparent;
   padding-bottom: 45px;
 }
+
+#insc_link {
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#insc_link:hover {
+  font-size: 18px;
+  background-color: #800820;
+}
 /*# sourceMappingURL=nav.css.map */

@@ -49,7 +49,7 @@
    0.3s border-top-color;
     transition: 0.2s 0.2s border-top ease-out,
    0.3s border-top-color;
-  }
+  } 
   
   footer {
     position: relative;
@@ -534,4 +534,14 @@ nav a{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   padding-bottom:45px;
+}
+
+#insc_link{
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+}
+#insc_link:hover{
+  font-size: 18px;
+  background-color:rgba(128,8,32,1);
 }
