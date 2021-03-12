@@ -12,7 +12,8 @@
     <title>Occa'z</title>
 </head>
 <body id='head'>
-<header class="respon">
+
+<header class="respon" id="navcolor">
   <a href="./index.php">
     <div>
   <img class="logo" src="./img/OccazLogo.png" >

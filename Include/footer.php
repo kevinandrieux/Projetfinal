@@ -9,6 +9,6 @@
 </footer>
 <script src="./j-query/jquery-3.5.1.min.js"></script>
 <script src="./jquery-ui-1.12.1/jquery-ui.js"></script>
-<script src="./js/fonctions.js"></script>
+<script src="./Js/fonctions.js"></script>
 </body>
 </html>
