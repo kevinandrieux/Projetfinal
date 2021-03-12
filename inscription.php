@@ -10,7 +10,7 @@
 
 <legend>Inscrivez-vous dès maintenant!</legend>
 
-<form action="./include/inscfonction.php" method="POST">
+<form action="./Include//inscription&login/inscfonction.php" method="POST">
 
 <label for="username">Nom d'Utilisateur:</label>
 <input type="text" name="username" id="usname" required>
@@ -39,18 +39,6 @@
 </fieldset>
 </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
 
 <?php
     include './Include/footer.php';

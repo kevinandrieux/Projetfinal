@@ -1,12 +1,13 @@
 <?php
     include './Include/header.php';
 ?>
+<link rel="stylesheet" >
 
 <div style="display: flex; justify-content: center;padding: 40px 0px 0px; ">
 <div class="formulaire">
 <fieldset>
 <legend>Connexion</legend>
-<form action="./Include/connect_exe.php" method="POST">
+<form action="./Include/inscription&login/connect_exe.php" method="POST">
 
 <label for="username">Nom d'Utilisateur</label>
 <input type="text" name="username" id="usname">
