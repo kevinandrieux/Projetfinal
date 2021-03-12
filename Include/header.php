@@ -46,11 +46,11 @@
         </li>
         <li>
           <li class="menu">
-            <a href="#"><h2 class="menu-title menu-title_4th">Jeux Video</h2></a>
+            <a href="./indexjv.php"><h2 class="menu-title menu-title_4th">Jeux Video</h2></a>
             <ul class="menu-dropdown">
-              <li><a href="#">Console</a></li>
-              <li><a href="#">Jeux</a></li>
-              <li><a href="#">Accessoires</a></li>
+              <li><a href="../indexjv_console.php">Console</a></li>
+              <li><a href="../indexjv_jeux.php">Jeux</a></li>
+              <li><a href="../indexjv_access.php">Accessoires</a></li>
               </ul>
           </a>
         </li>
