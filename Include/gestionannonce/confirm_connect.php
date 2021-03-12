@@ -1,6 +1,4 @@
-<?php
-    include './Include/header.php';
-?>
+<h1>header a venir</h1>
 
 
 
@@ -13,7 +11,4 @@ if(isset($_SESSION['username'])){
 
 <h2>Vous êtes maintenant connecté</h2>
 
-
-<?php
-    include './Include/footer.php';
-?>
+<h1>footer a venir</h1>
