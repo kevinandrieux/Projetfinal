@@ -34,33 +34,54 @@
 .card:hover{
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
- 
-    background: linear-gradient(307deg, #800820 16%, #872b76 51%, #223484 84%);
     box-shadow: 12px 12px 15px  #872b76 ;
     animation: 3s linear 0s infinite alternate move_eye;
 }
 @keyframes move_eye { 
-    0% { background: linear-gradient(127deg, #800820 16%, #872b76 51%, #223484 84%); }
-    5% { background: linear-gradient(136deg, #800820 16%, #872b76 51%, #223484 84%); }
-    10% { background: linear-gradient(145deg, #800820 16%, #872b76 51%, #223484 84%); }
-    15% { background: linear-gradient(154deg, #800820 16%, #872b76 51%, #223484 84%); }
-    20% { background: linear-gradient(163deg, #800820 16%, #872b76 51%, #223484 84%); }
-    25% { background: linear-gradient(172deg, #800820 16%, #872b76 51%, #223484 84%); }
-    30% { background: linear-gradient(181deg, #800820 16%, #872b76 51%, #223484 84%); }
-    35% { background: linear-gradient(190deg, #800820 16%, #872b76 51%, #223484 84%); }
-    40% { background: linear-gradient(199deg, #800820 16%, #872b76 51%, #223484 84%); }
-    45% { background: linear-gradient(208deg, #800820 16%, #872b76 51%, #223484 84%); }
-    50% { background: linear-gradient(217deg, #800820 16%, #872b76 51%, #223484 84%); }
-    55% { background: linear-gradient(226deg, #800820 16%, #872b76 51%, #223484 84%); }
-    60% { background: linear-gradient(235deg, #800820 16%, #872b76 51%, #223484 84%); }
-    65% { background: linear-gradient(244deg, #800820 16%, #872b76 51%, #223484 84%); }
-    70% { background: linear-gradient(253deg, #800820 16%, #872b76 51%, #223484 84%); }
-    75% { background: linear-gradient(262deg, #800820 16%, #872b76 51%, #223484 84%); }
-    80% { background: linear-gradient(271deg, #800820 16%, #872b76 51%, #223484 84%); }
-    85% { background: linear-gradient(280deg, #800820 16%, #872b76 51%, #223484 84%); }
-    90% { background: linear-gradient(289deg, #800820 16%, #872b76 51%, #223484 84%); }
-    95% { background: linear-gradient(298deg, #800820 16%, #872b76 51%, #223484 84%); }
-    100% { background: linear-gradient(307deg, #800820 16%, #872b76 51%, #223484 84%); }
+    0% { box-shadow: 12px 12px 15px  #872b76 ;
+        background: linear-gradient(127deg, #800820 16%, #872b76 51%, #223484 84%);}
+    2.5% {background: linear-gradient(136deg, #800820 16%, #872b76 51%, #223484 84%);}
+    5% {background: linear-gradient(145deg, #800820 16%, #872b76 51%, #223484 84%); }
+    7.5% {background: linear-gradient(154deg, #800820 16%, #872b76 51%, #223484 84%); }
+    10% {box-shadow: 12px 12px 15px  #223484;  
+        background: linear-gradient(163deg, #800820 16%, #872b76 51%, #223484 84%); }
+    12.5% { background: linear-gradient(172deg, #800820 16%, #872b76 51%, #223484 84%); }
+    15% { background: linear-gradient(181deg, #800820 16%, #872b76 51%, #223484 84%); }
+    17.5% { background: linear-gradient(190deg, #800820 16%, #872b76 51%, #223484 84%); }
+    20% {box-shadow: 12px 12px 15px  #800820 ; 
+        background: linear-gradient(199deg, #800820 16%, #872b76 51%, #223484 84%); }
+    22.5% { background: linear-gradient(208deg, #800820 16%, #872b76 51%, #223484 84%); }
+    25% { background: linear-gradient(217deg, #800820 16%, #872b76 51%, #223484 84%); }
+    37.5% { background: linear-gradient(226deg, #800820 16%, #872b76 51%, #223484 84%); }
+    40% { background: linear-gradient(235deg, #800820 16%, #872b76 51%, #223484 84%); }
+    42.5% { background: linear-gradient(244deg, #800820 16%, #872b76 51%, #223484 84%); }
+    45% { background: linear-gradient(253deg, #800820 16%, #872b76 51%, #223484 84%); }
+    47.5% { background: linear-gradient(262deg, #800820 16%, #872b76 51%, #223484 84%); }
+    50% { background: linear-gradient(271deg, #800820 16%, #872b76 51%, #223484 84%); }
+    52.5% { background: linear-gradient(280deg, #800820 16%, #872b76 51%, #223484 84%); }
+    55% { background: linear-gradient(289deg, #800820 16%, #872b76 51%, #223484 84%); }
+    57.5% { background: linear-gradient(298deg, #800820 16%, #872b76 51%, #223484 84%); }
+    60% { background: linear-gradient(307deg, #800820 16%, #872b76 51%, #223484 84%); }
+    62.5% { background: linear-gradient(316deg, #800820 16%, #872b76 51%, #223484 84%); }
+    65% { background: linear-gradient(325deg, #800820 16%, #872b76 51%, #223484 84%); }
+    67.5% { background: linear-gradient(334deg, #800820 16%, #872b76 51%, #223484 84%); }
+    70% { background: linear-gradient(343deg, #800820 16%, #872b76 51%, #223484 84%); }
+    72.5% { background: linear-gradient(352deg, #800820 16%, #872b76 51%, #223484 84%); }
+    75% { background: linear-gradient(1deg, #800820 16%, #872b76 51%, #223484 84%); }
+    77.5% { background: linear-gradient(10deg, #800820 16%, #872b76 51%, #223484 84%); }
+    80% { background: linear-gradient(19deg, #800820 16%, #872b76 51%, #223484 84%); }
+    82.5% { background: linear-gradient(28deg, #800820 16%, #872b76 51%, #223484 84%); }
+    85% { background: linear-gradient(37deg, #800820 16%, #872b76 51%, #223484 84%); }
+    87.5% { background: linear-gradient(46deg, #800820 16%, #872b76 51%, #223484 84%); }
+    90% { background: linear-gradient(55deg, #800820 16%, #872b76 51%, #223484 84%); }
+    92.5% { background: linear-gradient(64deg, #800820 16%, #872b76 51%, #223484 84%); }
+    95% { background: linear-gradient(73deg, #800820 16%, #872b76 51%, #223484 84%); }
+    97.5% { background: linear-gradient(82deg, #800820 16%, #872b76 51%, #223484 84%); }
+    100% { background: linear-gradient(91deg, #800820 16%, #872b76 51%, #223484 84%); }
+    102.5% { background: linear-gradient(100deg, #800820 16%, #872b76 51%, #223484 84%); }
+    105% { background: linear-gradient(109deg, #800820 16%, #872b76 51%, #223484 84%); }
+    107.5% { background: linear-gradient(118deg, #800820 16%, #872b76 51%, #223484 84%); }
+    110% { background: linear-gradient(127deg, #800820 16%, #872b76 51%, #223484 84%); }
 
 }
 .img{
