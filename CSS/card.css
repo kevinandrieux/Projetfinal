@@ -94,3 +94,24 @@
 .list_art{
     display:flex;
 }
+
+@media all and (min-width: 320px) and (max-width: 980px) {
+
+  .list_art {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+  
+    }
+    .section {
+        grid-template-columns: 1fr 1fr;
+
+        
+    }
+}
+
+
+  
+  

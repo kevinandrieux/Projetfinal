@@ -3,6 +3,8 @@ include ("./Include/header.php");
 ?>
 
 <link rel="stylesheet" href="./CSS/card.css">
+
+<h1 class="title_info">Matériel Sportif</h1>
 <main class="list_art">
 <section class="section">
 <a href="./sports_collectifs.php">
