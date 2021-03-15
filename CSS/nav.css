@@ -254,8 +254,6 @@ footer {
 }
 
 header {
-  background: #800820;
-  background: linear-gradient(160deg, #800820 16%, #872b76 51%, #223484 84%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -650,5 +648,39 @@ nav a {
 #insc_link:hover {
   font-size: 18px;
   background-color: #800820;
+}
+
+#navcolor {
+  background: #800820;
+  background: linear-gradient(160deg, #800820 16%, #872b76 51%, #223484 84%);
+  -webkit-animation: filter-animation 3s linear infinite;
+          animation: filter-animation 3s linear infinite;
+}
+
+@-webkit-keyframes filter-animation {
+  0% {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  50% {
+    -webkit-filter: hue-rotate(30deg);
+  }
+  100% {
+    -webkit-filter: hue-rotate(0deg);
+  }
+}
+
+@keyframes filter-animation {
+  0% {
+    -webkit-filter: hue-rotate(0deg);
+            filter: hue-rotate(0deg);
+  }
+  50% {
+    -webkit-filter: hue-rotate(30deg);
+            filter: hue-rotate(30deg);
+  }
+  100% {
+    -webkit-filter: hue-rotate(0deg);
+            filter: hue-rotate(0deg);
+  }
 }
 /*# sourceMappingURL=nav.css.map */
