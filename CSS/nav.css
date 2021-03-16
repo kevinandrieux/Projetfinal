@@ -671,13 +671,25 @@ nav a {
 }
 /*# sourceMappingURL=nav.css.map */
 
+.mentionslegales{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.titre_mentions{
+  text-align: center;
+  justify-content: center;
+}
+
 .autre_infos{
   display: flex;
   justify-content: center;
-  background: linear-gradient(317deg, #800820 16%, #872b76 51%, #223484 84%);
-  color: #ebebeb;
-  margin-bottom: 0px;
+  color: black; 
+  position: relative;
+  top: 80px;
 }
+
 
 .a_propos{
   text-align: center;
@@ -696,4 +708,6 @@ nav a {
   text-align: center;
   padding: 10px;
 }
+
+
 
