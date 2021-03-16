@@ -2,6 +2,7 @@
  session_start();
  if(isset($_SESSION['username'])){
 
+    $sessuser = $_SESSION['username'];
     if(!empty($_POST)) {
         $errors = array();
         
@@ -23,8 +24,8 @@
         }
         else {
             require '../database.php';
-            $req = $pdo->prepare('INSERT INTO annonces SET nom = ?, description = ?, photo = ?, prix = ?, role_sscat = ?, role_cat = 2');
-            $req->execute([$_POST['nom'], $_POST['description'], $_POST['photo'],$_POST['prix'], $_POST['role_sscat'],]);
+            $req = $pdo->prepare("INSERT INTO annonces SET nom = ?, description = ?, photo = ?, prix = ?, role_sscat = ?, role_cat = 2, role_user = ?");
+            $req->execute([$_POST['nom'], $_POST['description'], $_POST['photo'],$_POST['prix'], $_POST['role_sscat'], $sessuser]);
             header('location: gestion_jv.php');
             exit();
         }

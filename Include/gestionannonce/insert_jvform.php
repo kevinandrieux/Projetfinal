@@ -1,4 +1,8 @@
-
+<?php
+session_start();
+ if(isset($_SESSION['username'])){
+?>
+   
 <form action="./insertjv.php" method="POST">
 <label for="nom">Nom du Produit</label>
 <input type="text" name="nom">
@@ -18,3 +22,6 @@
 
 
 </form>
+<?php
+ }
+?>
