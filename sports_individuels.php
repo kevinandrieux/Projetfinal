@@ -27,6 +27,7 @@
 <img src="./img/sport_individuel.jfif" alt=""  class="img">
 <div class="card2">
 <h4>Sports individuel</h4>
+<br>
 <p>Vous trouverez dans cette rubrique les annonces concernant les articles:</p>
 </div>
 </div>
@@ -37,6 +38,7 @@
     <img src="./img/sport_raquette.jfif" alt=""  class="img">
     <div class="card2">
     <h4>Sports de raquettes</h4>
+    <br>
     <p>Vous trouverez dans cette rubrique les annonces concernant les articles:</p>
 </div>
 </div>
@@ -58,6 +60,7 @@
     <img src="./img/sport_raquette.jfif" alt=""  class="img">
     <div class="card2">
     <h4>Sports de raquettes</h4>
+    <br>
     <p>Vous trouverez dans cette rubrique les annonces concernant les articles:</p>
 </div>
 </div>
@@ -68,6 +71,7 @@
     <img src="./img/sport_raquette.jfif" alt=""  class="img">
     <div class="card2">
     <h4>Sports de raquettes</h4>
+    <br>
     <p>Vous trouverez dans cette rubrique les annonces concernant les articles:</p>
 </div>
 </div>
