@@ -19,9 +19,11 @@
   </div>
   </a>
   <div class="nav-title">
-    <h1 style="color: white;">Bienvenue sur votre espace</h1>
+    <div class="mem-title">
+        <h1 style="color: white;">Bienvenue sur votre espace</h1>
     <p style="color: white; padding-bottom: 12px;" >Du meilleur site Occa'z</p>
-    <div style="display: grid;">
+    </div>
+      <div>
         <?php
         session_start();
         if(isset($_SESSION['username'])){
@@ -32,3 +34,5 @@
         }
         ?>
       </div>
+  </div>
+</header>
