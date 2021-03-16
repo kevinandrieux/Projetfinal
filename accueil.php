@@ -2,11 +2,7 @@
       <main>
         <section class="description">
           <h1 class="title_info" style="padding: 20px;">Description du site</h1>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime aliquam laboriosam reprehenderit ullam iusto dignissimos incidunt, vitae optio impedit autem tempore, molestiae omnis temporibus soluta id consequuntur cum odit nobis?
-          Obcaecati sapiente, aliquid error pariatur in sint inventore at quae molestias earum exercitationem officia repellendus aspernatur assumenda sequi illum fugit, eaque, libero voluptatibus iure commodi perspiciatis repudiandae. Eos, reprehenderit ab.
-          Impedit mollitia placeat cumque? Optio error blanditiis necessitatibus cumque hic, rerum possimus impedit quaerat sed dolores ut nam est eaque omnis quis minima perspiciatis eos facere porro. Asperiores, doloremque doloribus.
-          Soluta deleniti nobis laboriosam voluptatem, dolor tenetur atque repellat eveniet expedita inventore minus dolorum. Corrupti id repellat, numquam, perspiciatis nulla doloribus libero dolorum, officiis quos magnam harum tempore rem accusantium.
-          Quod sapiente, deserunt debitis magnam minima nobis rem explicabo aliquam quis accusantium dolor, dicta amet id ducimus omnis cupiditate eos, veritatis temporibus labore natus excepturi. Facere iure assumenda alias deserunt.</p>
+          <p>Bienvenue sur Occaz, le meilleur site d'occasion. Sur le site, vous trouverez des annonces sur des produits d'occasions. Informatiques, jeux-videos ou encore sports, vous trouverez ce que vous recherchez.</p>
         </section>
         <section class="slider">
           
