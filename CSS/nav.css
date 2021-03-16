@@ -46,8 +46,10 @@ a {
   top: 100%;
   left: 0;
   z-index: 9999;
-  -webkit-transition: 0.2s 0.2s border-top ease-out, 0.3s border-top-color;
-  transition: 0.2s 0.2s border-top ease-out, 0.3s border-top-color;
+  -webkit-transition: 0.2s 0.2s border-top ease-out,
+ 0.3s border-top-color;
+  transition: 0.2s 0.2s border-top ease-out,
+ 0.3s border-top-color;
 }
 
 footer {
@@ -64,8 +66,10 @@ footer {
 
 .menu:hover > .menu-title:before {
   border-top-width: 0;
-  -webkit-transition: 0.2s border-top-width ease-in, 0.3s border-top-color;
-  transition: 0.2s border-top-width ease-in, 0.3s border-top-color;
+  -webkit-transition: 0.2s border-top-width ease-in,
+ 0.3s border-top-color;
+  transition: 0.2s border-top-width ease-in,
+ 0.3s border-top-color;
 }
 
 .menu-title:after {
@@ -153,8 +157,10 @@ footer {
   position: absolute;
   background: #ebebeb;
   z-index: 9999;
-  -webkit-transition: 0.5s padding, 0.5s background;
-  transition: 0.5s padding, 0.5s background;
+  -webkit-transition: 0.5s padding,
+ 0.5s background;
+  transition: 0.5s padding,
+ 0.5s background;
 }
 
 .menu-dropdown:after {
@@ -207,8 +213,16 @@ footer {
   padding-bottom: 0;
   margin: 0;
   color: rgba(25, 25, 25, 0);
-  -webkit-transition: 0.5s 0.1s height, 0.5s 0.1s padding, 0.5s 0.1s margin, 0.3s color, 0.6s visibility;
-  transition: 0.5s 0.1s height, 0.5s 0.1s padding, 0.5s 0.1s margin, 0.3s color, 0.6s visibility;
+  -webkit-transition: 0.5s 0.1s height,
+ 0.5s 0.1s padding,
+ 0.5s 0.1s margin,
+ 0.3s color,
+ 0.6s visibility;
+  transition: 0.5s 0.1s height,
+ 0.5s 0.1s padding,
+ 0.5s 0.1s margin,
+ 0.3s color,
+ 0.6s visibility;
   z-index: 9999;
 }
 
@@ -656,3 +670,30 @@ nav a {
   background: linear-gradient(160deg, #800820 16%, #872b76 51%, #223484 84%);
 }
 /*# sourceMappingURL=nav.css.map */
+
+.autre_infos{
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(317deg, #800820 16%, #872b76 51%, #223484 84%);
+  color: #ebebeb;
+  margin-bottom: 0px;
+}
+
+.a_propos{
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.nous_contacter{
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.liens_utiles{
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+}
+

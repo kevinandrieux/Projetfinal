@@ -3,7 +3,7 @@
         <div class="footer">
             <ul>
                 <li class="element">Copyright 2021</li>
-                <li class="element"><button class="deposer"><a href="mentions.html">Mentions</a></button></li>
+                <li class="element"><button class="deposer"><a href="mentions.php">Mentions</a></button></li>
             </ul>
 </div>
 </footer>
