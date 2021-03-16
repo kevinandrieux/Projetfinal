@@ -62,6 +62,7 @@
         session_start();
         if(isset($_SESSION['username'])){
         echo '<button class="deposer"><a class="annonce" href="./Include/deco_exe.php">Déconnexion</a></button>';
+        echo '<button class="deposer"><a class="annonce" href="./Include/gestionannonce/confirm_connect.php">Espace Membre</a></button>';
         }
         else{
           echo '<button class="deposer"><a class="annonce" href="./connexion.php">Connexion</a></button>';

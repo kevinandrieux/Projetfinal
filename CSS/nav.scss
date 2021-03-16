@@ -44,7 +44,7 @@
     position: absolute;
     top: 100%;
     left: 0;
-    z-index: 101;
+    z-index: 9999;
     -webkit-transition: 0.2s 0.2s border-top ease-out,
    0.3s border-top-color;
     transition: 0.2s 0.2s border-top ease-out,
@@ -78,7 +78,7 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    z-index: 101;
+    z-index: 9999;
     -webkit-transition: 0.2s border-bottom ease-in;
     transition: 0.2s border-bottom ease-in;
   }
@@ -145,7 +145,7 @@
     padding: 15px 0;
     position: absolute;
     background: #ebebeb;
-    z-index: 100;
+    z-index: 9999;
     -webkit-transition: 0.5s padding,
    0.5s background;
     transition: 0.5s padding,
@@ -162,7 +162,7 @@
     position: absolute;
     top: 100%;
     left: 0;
-    z-index: 101;
+    z-index: 9999;
     -webkit-transition: 0.5s border-top;
     transition: 0.5s border-top;
   }
@@ -170,7 +170,7 @@
   .menu:not(:hover) > .menu-dropdown {
     padding: 4px 0;
     background: #dddddd;
-    z-index: 99;
+    z-index: 9999;
   }
   
   .menu:not(:hover) > .menu-dropdown:after {
@@ -212,7 +212,7 @@
    0.5s 0.1s margin,
    0.3s color,
    0.6s visibility;
-    z-index: 99;
+    z-index: 9999;
   }
   
   .hList > * {
@@ -251,8 +251,7 @@
       color: white;
   }
   header {
-    background: rgb(128,8,32);
-    background: linear-gradient(160deg, rgba(128,8,32,1) 16%, rgba(135,43,118,1) 51%, rgba(34,52,132,1) 84%);
+
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -534,6 +533,7 @@ nav a{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   padding-bottom:45px;
+  z-index: 1;
 }
 
 #insc_link{
@@ -544,4 +544,9 @@ nav a{
 #insc_link:hover{
   font-size: 18px;
   background-color:rgba(128,8,32,1);
+}
+
+#navcolor{
+  background: rgb(128,8,32);
+  background: linear-gradient(160deg, rgba(128,8,32,1) 16%, rgba(135,43,118,1) 51%, rgba(34,52,132,1) 84%);
 }
