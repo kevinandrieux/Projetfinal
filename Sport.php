@@ -2,106 +2,45 @@
 include ("./Include/header.php");
 ?>
 
-<link rel="stylesheet" href="./CSS/card.css">
+<div class="container_indexinfo">
 
-<h1 class="title_info">Matériel Sportif</h1>
-<main class="list_art">
-<section class="section">
-<a href="./sports_collectifs.php">
-<div class="card">
-    <img src="./img/sport_collectif.jpg" alt=""  class="img">
-    <div class="card2">
-    <h4>Sports collectifs</h4>
-    <br>
-    <p>Vous trouverez dans cette rubrique les annonces concernant les articles</p>
+<h1 class="title_info">Sports</h1>
+
+<div class="card-container_indexinfo">
+    <div class="hover_indexinfo">
+            <a href="./sports_collectifs.php">
+                <div class="card_indexinfo">
+                    <img src="./img/sport_collectif.jpg" alt="Random photo" class="card-img_indexinfo">
+                    <div class="card-body_indexinfo">
+                        <p>Sports collectifs</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+    <div class="hover_indexinfo">
+            <a href="./sports_individuels.php">
+                <div class="card_indexinfo">
+                    <img src="./img/sport_individuel.jfif" alt="Random photo" class="card-img_indexinfo">
+                    <div class="card-body_indexinfo">
+                        <p>Sports individuels</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+    <div class="hover_indexinfo">
+            <a href="./sport_raquette.php">
+                <div class="card_indexinfo">
+                    <img src="./img/sport_raquette2.jfif" alt="Random photo" class="card-img_indexinfo">
+                    <div class="card-body_indexinfo">
+                        <p>Sports de raquettes</p>
+                    </div>
+                </div>
+            </a>
+    </div>
 </div>
 </div>
-</a>
-
-
-
-<a href="./sports_individuels.php">
-<div class="card">
-<img src="./img/sport_individuel.jfif" alt=""  class="img">
-<div class="card2">
-<h4>Sports individuel</h4>
-<p>Vous trouverez dans cette rubrique les annonces concernant les articles:</p>
-</div>
-</div>
-</a>
-
-
-
-
-
-<a href="./sport_raquette.php">
-<div class="card">
-    <img src="./img/sport_raquette.jfif" alt=""  class="img">
-    <div class="card2">
-    <h4>Sports de raquettes</h4>
-    <p>Vous trouverez dans cette rubrique les annonces concernant les articles:</p>
-</div>
-</div>
-</a>
-<a href="./sport_raquette.php">
-<div class="card">
-    <img src="./img/sport_raquette.jfif" alt=""  class="img">
-    <div class="card2">
-    <h4>Sports de raquettes</h4>
-    <br>
-    <p>Vous trouverez dans cette rubrique les annonces concernant les articles</p>
-</div>
-</div>
-</a>
-
-<a href="./sport_raquette.php">
-<div class="card">
-    <img src="./img/sport_raquette.jfif" alt=""  class="img">
-    <div class="card2">
-    <h4>Sports de raquettes</h4>
-    <p>Vous trouverez dans cette rubrique les annonces concernant les articles:</p>
-</div>
-</div>
-</a>
-<a href="./sport_raquette.php">
-<div class="card">
-    <img src="./img/sport_raquette.jfif" alt=""  class="img">
-    <div class="card2">
-    <h4>Sports de raquettes</h4>
-    <p>Vous trouverez dans cette rubrique les annonces concernant les articles:</p>
-</div>
-</div>
-</a>
-</section>
-<aside>
-  <div style="padding-bottom: 12px;">
-  <input type="text" value="recherche" class="recherche">
-</div>
-<div class="recent" style="padding-bottom: 12px;">
-  <h1>Liste article récent</h1>
-</div>
-  <div class="article">
-    <div>
-    <img class='imagerecent' src="./img/BannièreJV.jpg" alt="">
-  </div>
-    <div class="prix"><h3>nom de l'article</h3>
-    <p>prix</p></div> 
-  </div>
-
-</aside>
-</main>
-
-
-
-
-
-
-
-
-
-
-
-
 
 <?php
 include ("./Include/footer.php")
