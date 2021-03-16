@@ -8,3 +8,9 @@ if(isset($_SESSION['username'])){
 }
 ?>
 </section>
+
+<nav>
+<a href="./insert_jvform.php"><button>go!</button></a>
+
+
+</nav>

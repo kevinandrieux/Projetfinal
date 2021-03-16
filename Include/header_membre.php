@@ -27,7 +27,7 @@
         <?php
         session_start();
         if(isset($_SESSION['username'])){
-        echo '<button class="deposer"><a class="annonce" href="./Include/deco_exe.php">Déconnexion</a></button>';
+        echo '<button class="deposer"><a class="annonce" href="../deco_exe.php">Déconnexion</a></button>';
         }
         else{
           header('location: ../../connexion.php');
