@@ -22,7 +22,7 @@
 <input type="text" name="prenom" id="prename" required>
 
 <label for="mail">Mail:</label>
-<input type="text" name="mail" id="mail" required>
+<input type="email" name="mail" id="mail" required>
 
 <label for="user_pass">Mot de Passe:</label>
 <input type="password" name="user_pass" id="uspass" required>

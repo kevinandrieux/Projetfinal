@@ -29,7 +29,7 @@ else {
     $req = $pdo->prepare("INSERT INTO users SET username = ?, nom = ?, prenom = ?, mail = ?, user_pass = ? ");
     $password = password_hash($_POST['user_pass'], PASSWORD_BCRYPT);
 $req->execute([$_POST['username'], $_POST['nom'], $_POST['prenom'], $_POST['mail'], $password]);
-header('location: ./connexion.php');
+header('location: ../../../connexion.php');
 
 exit();
 }
