@@ -19,6 +19,7 @@ session_start();
 <option value="2">Ordinateurs Portables </option>
 <option value="1">Accessoires</option>
 </select>
+<input type="datetime-local" name="datatime" id="">
 <button type="submit">envoyer l'annonce</button>
 </form>
 </fieldset>

@@ -10,8 +10,10 @@ if(isset($_SESSION['username'])){
 ?>
 </section>
 
-<nav>
-<h2>Poster une annonce:</h2>
-<a href="./insert_infoform.php"><button>Rayons Informatique</button></a>
-<a href="./insert_jvform.php"><button>Rayons Jeux-Vidéos</button></a>
+<nav class="memb_nav">
+<section class="memb_sect">
+<h3>Poster une annonce:</h3>
+<a href="./insert_infoform.php"><button class="button_annonce">Rayons Informatique</button></a>
+<a href="./insert_jvform.php"><button class="button_annonce">Rayons Jeux-Vidéos</button></a>
+</section>
 </nav>

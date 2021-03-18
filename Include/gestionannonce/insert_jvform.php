@@ -18,6 +18,7 @@ session_start();
 <option value="6">jeux</option>
 <option value="5">console</option>
 </select>
+<input type="datetime-local" name="datatime" id="">
 <button type="submit">envoyer l'annonce</button>
 
 
