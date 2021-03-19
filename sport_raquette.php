@@ -80,7 +80,7 @@
 </section>
 <aside>
   <div style="padding-bottom: 12px;">
-  <input type="text" value="recherche" class="recherche">
+  <input type="search" value="recherche" class="recherche">
 </div>
 <div class="recent" style="padding-bottom: 12px;">
   <h1>Liste article récent</h1>

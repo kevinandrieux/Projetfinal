@@ -27,9 +27,9 @@
         }
         else {
             require '../database.php';
-            $req = $pdo->prepare("INSERT INTO annonces SET nom = ?, description = ?, photo = ?, prix = ?, role_sscat = ?, role_cat = 2, role_user = ?, datatime = ?");
+            $req = $pdo->prepare("INSERT INTO annonces SET nom = ?, description = ?, photo = ?, prix = ?, role_sscat = ?, role_cat = 1, role_user = ?, datatime = ?");
             $req->execute([$_POST['nom'], $_POST['description'], $_POST['photo'],$_POST['prix'], $_POST['role_sscat'], $sessuser, $_POST['datatime']]);
-            header('location: gestion_jv.php');
+            header('location: gestion_info.php');
             exit();
         }
 

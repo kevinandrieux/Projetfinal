@@ -2,8 +2,9 @@
 session_start();
  if(isset($_SESSION['username'])){
 ?>
-   
-<form action="./insertjv.php" method="POST">
+<fieldset>
+<legend>Poster une annonce Informatique:</legend>
+<form action="./insertinfo_exe.php" method="POST">
 <label for="nom">Nom du Produit</label>
 <input type="text" name="nom">
 <label for="description"> Description du Produit</label>
@@ -14,15 +15,14 @@ session_start();
 <input type="text" name="prix" id="">
 <label for="role_sscat">Categorie</label>
 <select name="role_sscat" id="">
-<option value="4">Accessoires</option>
-<option value="6">jeux</option>
-<option value="5">console</option>
+<option value="3">Ordinateurs Fixes</option>
+<option value="2">Ordinateurs Portables </option>
+<option value="1">Accessoires</option>
 </select>
 <input type="datetime-local" name="datatime" id="">
 <button type="submit">envoyer l'annonce</button>
-
-
 </form>
+</fieldset>
 <?php
  }
 ?>

@@ -1,8 +1,9 @@
 .section{    
     text-align: center;
     align-items: center;
-    display: grid;
-    grid-template-columns: 3fr 3fr 3fr;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     padding-left: 0.3em;
 }
 .card2 {
@@ -18,8 +19,8 @@
     align-items: center;
     color: white;
     border-radius: 2px;
-   display: flex;
-   flex-direction: column;
+    display: flex;
+    flex-direction: column;
     height: 300px;
     margin: 1rem;
     position: relative;
