@@ -15,5 +15,6 @@ if(isset($_SESSION['username'])){
 <h3>Poster une annonce:</h3>
 <a href="./insert_infoform.php"><button class="button_annonce">Rayons Informatique</button></a>
 <a href="./insert_jvform.php"><button class="button_annonce">Rayons Jeux-Vidéos</button></a>
+<a href="./insert_sportform.php"><button class="button_annonce">Rayons Sports</button></a>
 </section>
 </nav>

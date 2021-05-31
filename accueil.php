@@ -2,7 +2,7 @@
       <main>
         <section class="description">
           <h1 class="title_info" style="padding: 20px;">Description du site</h1>
-          <p>Bienvenue sur Occaz, le meilleur site d'occasion. Sur le site, vous trouverez des annonces sur des produits d'occasions. Informatiques, jeux-videos ou encore sports, vous trouverez ce que vous recherchez.</p>
+          <p>Bienvenue sur Occaz, le meilleur site d'occasion. Sur le site, vous trouverez des annonces sur des produits d'occasions. Informatiques, jeux-videos ou encore sports, vous trouverez tout ce que vous recherchez.</p>
         </section>
         <section class="slider">
           
@@ -27,7 +27,6 @@
     <div class="prix"><h3>nom de l'article</h3>
     <p>prix</p></div> 
   </div>
-
 </aside>
         </section>
       </main>
