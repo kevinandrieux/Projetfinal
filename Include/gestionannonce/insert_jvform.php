@@ -3,7 +3,7 @@ session_start();
  if(isset($_SESSION['username'])){
 ?>
    
-<form action="./insertjv.php" method="POST">
+<form action="./insertjv.php" method="POST" enctype="multipart/form-data" >
 <label for="nom">Nom du Produit</label>
 <input type="text" name="nom">
 <label for="description"> Description du Produit</label>
@@ -24,5 +24,6 @@ session_start();
 
 </form>
 <?php
+
  }
 ?>

@@ -14,8 +14,18 @@ echo '
               <h4>'.$data->nom.'</h4>
               <br>
               <p>'.$data->prix.'</p>
+              <img src="./'.$data->photo.'" alt="">
+            
             </div>
         </div>
       </a>
 ';
     }
+  
+
+    
+    
+
+    ?>
+
+	

@@ -18,11 +18,12 @@
   echo '
           <a href="./descrijv.php?id='.$data->id.'">
             <div class="card">
-              <img src="./img/sport_collectif.jpg" alt=""  class="img">
+              <img src="./Include/gestionannonce/copyimage/' .$data->photo.'" alt=""  class="img">
                 <div class="card2">
                   <h4>'.$data->nom.'</h4>
                   <br>
                   <p>'.$data->prix.'</p>
+                  
                 </div>
             </div>
           </a>
@@ -30,6 +31,7 @@
         }
 
 ?>
+<img src="./Include/gestionannonce/copyimage/" alt="" srcset="">
 </section>
 <aside>
   <div style="padding-bottom: 12px;">

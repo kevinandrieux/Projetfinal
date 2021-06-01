@@ -4,11 +4,12 @@
     <input type="submit">
     </form>
 <?php
-$destinationFilePath = 'copyImages/';
-if (isset($_FILES['photo']['tmp_name'])) {
-$retour = copy($_FILES['photo']['tmp_name'], $_FILES['photo']['name'] ,$destinationFilePath );
-if($retour) {
+
+
+if (copy($_FILES['photo']['tmp_name'], __DIR__.'./copyimage/'.$_FILES['photo']['name'] )){
     echo '<p>La photo a bien été envoyée.</p>';
-    echo '<img src=" ./copyImages/' . $_FILES['photo']['name'] . '">';
+}else{
+    echo'la photo a pas etais envoyer';
+
 }
-}
+?>
