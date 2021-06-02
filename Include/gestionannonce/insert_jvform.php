@@ -9,7 +9,7 @@ session_start();
 <label for="description"> Description du Produit</label>
 <textarea name="description" id="" cols="30" rows="10"></textarea>
 <label for="photo">photo</label>
-<input type="file" name="photo" id="" >
+<input type="file" name="photo" id="photo" >
 <label for="prix">Prix</label>
 <input type="text" name="prix" id="">
 <label for="role_sscat">Categorie</label>
@@ -24,6 +24,7 @@ session_start();
 
 </form>
 <?php
+
 
  }
 ?>

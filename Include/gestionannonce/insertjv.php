@@ -1,7 +1,7 @@
 <?php
  session_start();
  if(isset($_SESSION['username'])){
-
+    $photoname = $_FILES['photo']['name'];
     $sessuser = $_SESSION['username'];
     if(!empty($_POST)) {
         $errors = array();
@@ -14,7 +14,7 @@
             echo'Veulliez mettre une description';
         }
         elseif(empty($_FILES['photo'])){
-            echo'insert un photo de produit';
+            echo'insert un nom de produit';
         }
         elseif(empty($_POST['prix'])){
             echo'Prix du produit a ajouté';
@@ -27,11 +27,17 @@
         }
         else {
             require '../database.php';
-            $req = $pdo->prepare("INSERT INTO annonces SET nom = ?, description = ?, photo = ?, prix = ?, role_sscat = ?, role_cat = 2, role_user = ?, datatime = ?");
-            $req->execute([$_POST['nom'], $_POST['description'], $_FILES['photo'],$_POST['prix'], $_POST['role_sscat'], $sessuser, $_POST['datatime']]);
+          
+            if (copy($_FILES['photo']['tmp_name'], __DIR__.'./copyimage/'. $photoname )){
+                $req = $pdo->prepare("INSERT INTO annonces SET nom = ?, description = ?, photo = ?, prix = ?, role_sscat = ?, role_cat = 2, role_user = ?, datatime = ?");
+                $req->execute([$_POST['nom'], $_POST['description'], $_FILES['photo'] = $photoname,$_POST['prix'], $_POST['role_sscat'], $sessuser, $_POST['datatime']]);
+                header('location: gestion_jv.php');
+                exit();
+            }else{
+                echo'la photo a pas etais envoyer';
+            }
+           
             
-            header('location: gestion_jv.php');
-            exit();
         }
     
 
@@ -41,8 +47,5 @@
 }else {
     header('location: ../../connexion.php');
 }
-if (copy($_FILES['photo']['tmp_name'], __DIR__.'./copyimage/'.$_FILES['photo']['name'] )){
-    echo '<p>La photo a bien été envoyée.</p>';
-}else{
-    echo'la photo a pas etais envoyer';
-}
+
++
