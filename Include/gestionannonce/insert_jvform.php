@@ -11,7 +11,7 @@ session_start();
 <label for="photo">photo</label>
 <input type="file" name="photo" id="photo" >
 <label for="prix">Prix</label>
-<input type="text" name="prix" id="">
+<input type="number" name="prix" min="1" max="100000000000000" id="">
 <label for="role_sscat">Categorie</label>
 <select name="role_sscat" id="">
 <option value="4">Accessoires</option>

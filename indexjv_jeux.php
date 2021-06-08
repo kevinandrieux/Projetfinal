@@ -11,7 +11,7 @@
     <?php
     require './database.php';
     
-    $req = $pdo->query('SELECT * FROM annonces WHERE role_sscat = 6');
+    $req = $pdo->query('SELECT * FROM annonces WHERE role_sscat = 6  ORDER BY `datatime` DESC LIMIT 0,6');
     
         while($data = $req->fetch()){
 
@@ -22,7 +22,7 @@
                 <div class="card2">
                   <h4>'.$data->nom.'</h4>
                   <br>
-                  <p>'.$data->prix.'</p>
+                  <p>'.$data->prix.'€</p>
                   
                 </div>
             </div>
@@ -31,7 +31,7 @@
         }
 
 ?>
-<img src="./Include/gestionannonce/copyimage/" alt="" srcset="">
+
 </section>
 <aside>
   <div style="padding-bottom: 12px;">

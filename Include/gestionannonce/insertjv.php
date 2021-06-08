@@ -31,7 +31,7 @@
             if (copy($_FILES['photo']['tmp_name'], __DIR__.'./copyimage/'. $photoname )){
                 $req = $pdo->prepare("INSERT INTO annonces SET nom = ?, description = ?, photo = ?, prix = ?, role_sscat = ?, role_cat = 2, role_user = ?, datatime = ?");
                 $req->execute([$_POST['nom'], $_POST['description'], $_FILES['photo'] = $photoname,$_POST['prix'], $_POST['role_sscat'], $sessuser, $_POST['datatime']]);
-                header('location: gestion_jv.php');
+                header('location: confirm_connect.php');
                 exit();
             }else{
                 echo'la photo a pas etais envoyer';
@@ -48,4 +48,3 @@
     header('location: ../../connexion.php');
 }
 
-+
