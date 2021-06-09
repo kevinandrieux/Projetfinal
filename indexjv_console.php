@@ -36,22 +36,7 @@
 ?>
 
 </section>
-<aside>
-  <div style="padding-bottom: 12px;">
-  <input type="search" value="recherche" class="recherche">
-</div>
-<div class="recent" style="padding-bottom: 12px;">
-  <h1>Liste article récent</h1>
-</div>
-  <div class="article">
-    <div>
-    <img class='imagerecent' src="./img/BannièreJV.jpg" alt="">
-  </div>
-    <div class="prix"><h3>nom de l'article</h3>
-    <p>prix</p></div> 
-  </div>
-
-</aside>
+<?php include './asside.php' ?>
 </main>
 
 
