@@ -13,7 +13,7 @@
     <?php
     require './database.php';
     
-    $req = $pdo->query('SELECT * FROM annonces WHERE role_sscat = 3 ORDER BY `datatime` DESC LIMIT 0,6');
+    $req = $pdo->query('SELECT * FROM annonces WHERE role_sscat = 3 ORDER BY `creadate` DESC LIMIT 0,6');
     
         while($data = $req->fetch()){
 

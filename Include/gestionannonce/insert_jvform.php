@@ -1,6 +1,8 @@
 <?php
-session_start();
- if(isset($_SESSION['username'])){
+
+include('../header_membre.php');
+
+if(isset($_SESSION['username'])){
 ?>
    
 <form action="./insertjv.php" method="POST" enctype="multipart/form-data" >
@@ -18,7 +20,6 @@ session_start();
 <option value="6">jeux</option>
 <option value="5">console</option>
 </select>
-<input type="datetime-local" name="datatime" id="">
 <button type="submit">envoyer l'annonce</button>
 
 

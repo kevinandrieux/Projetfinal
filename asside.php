@@ -8,13 +8,13 @@
 <?php
 require './database.php';
 
-$req = $pdo->query('SELECT * FROM annonces ORDER BY `datatime` DESC LIMIT 0,3');
+$req = $pdo->query('SELECT * FROM annonces ORDER BY `creadate` DESC LIMIT 0,3');
 
 while($data = $req->fetch()){
     echo"
   <div class='article' style='align-items:center'>
     <div>
-    <img class='imagerecent' src='./Include/gestionannonce/copyimage/" .$data->photo."' alt=''>
+    <img class='imagerecent' src='./Include/gestionannonce/copyimage/".$data->photo."' alt=''>
     </div>
     <div class='prix'>
       <h3>".$data->nom."</h3>
