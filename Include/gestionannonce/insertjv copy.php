@@ -29,7 +29,7 @@
             require '../database.php';
           
             if (copy($_FILES['photo']['tmp_name'], __DIR__.'./copyimage/'. $photoname )){
-                $req = $pdo->prepare("INSERT INTO annonces SET nom = ?, description = ?, photo = ?, prix = ?, role_sscat = ?, role_cat = 1, role_user = ?, datatime = ?");
+                $req = $pdo->prepare("INSERT INTO annonces SET nom = ?, description = ?, photo = ?, prix = ?, role_sscat = ?, role_cat = 3, role_user = ?, datatime = ?");
                 $req->execute([$_POST['nom'], $_POST['description'], $_FILES['photo'] = $photoname,$_POST['prix'], $_POST['role_sscat'], $sessuser, $_POST['datatime']]);
                 header('location: confirm_connect.php');
                 exit();
@@ -47,3 +47,4 @@
 }else {
     header('location: ../../connexion.php');
 }
+

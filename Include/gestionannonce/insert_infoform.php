@@ -4,7 +4,7 @@ session_start();
 ?>
 <fieldset>
 <legend>Poster une annonce Informatique:</legend>
-<form action="./insertinfo_exe.php" method="POST">
+<form action="./insertinfo_exe.php" method="POST" enctype="multipart/form-data">
 <label for="nom">Nom du Produit</label>
 <input type="text" name="nom">
 <label for="description"> Description du Produit</label>

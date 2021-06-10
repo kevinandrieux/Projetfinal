@@ -1,4 +1,5 @@
 <?php
+include "./Include/header.php";
 $id = $_GET['id'];
 
 
@@ -26,6 +27,7 @@ echo '
     
     
 
-    ?>
+include "./Include/footer.php";   
+?>
 
 	

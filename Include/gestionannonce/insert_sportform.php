@@ -4,7 +4,7 @@ session_start();
 ?>
 <fieldset>
 <legend>Poster une annonce sport:</legend>
-<form action="./insertinfo_exe.php" method="POST">
+<form action="./insertsport_exe.php" method="POST" enctype="multipart/form-data">
 <label for="nom">Nom du Produit</label>
 <input type="text" name="nom">
 <label for="description"> Description du Produit</label>
@@ -15,9 +15,9 @@ session_start();
 <input type="text" name="prix" id="">
 <label for="role_sscat">Categorie</label>
 <select name="role_sscat" id="">
-<option value="3">Sports de raquette</option>
-<option value="2">Sports individuel</option>
-<option value="1">Sports collectifs</option>
+<option value="9">Sports de raquette</option>
+<option value="7">Sports individuel</option>
+<option value="8">Sports collectifs</option>
 </select>
 <input type="datetime-local" name="datatime" id="">
 <button type="submit">envoyer l'annonce</button>
