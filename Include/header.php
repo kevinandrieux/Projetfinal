@@ -23,8 +23,7 @@
     <h1 style="color: white;">Bienvenue sur Occa'z</h1>
     <p style="color: white; padding-bottom: 12px;" >le meilleur site Occa'z</p>
  
-    <ul class="hList">
-       
+    <ul class="hList"> 
         <li>
           <li class="menu">
             <a href="./indexinfo.php" class="menu-title menu-title_2nd"><h2>Informatique</h2></a>
@@ -76,15 +75,24 @@
         <input type="checkbox" id="mobile" role='button'>
         
         <ul>
-            <li><a href="#">Accueil</a></li>
-            <li class='deroulant'><a href="#">Liste Annonce</a>
+            <li><a href="./index.php">Accueil</a></li>
+            <li class='deroulant'>
                 <ul class="sous">
-                    <li><a href="#">Berck</a></li>
-                    <li><a href="#">Etaples</a></li>
-                    <li><a href="#">Touquet</a></li>
+                    <li><a href="./indexinfo.php">Informatique</a></li>
+                    <li><a href="./Sport.php">Sports</a></li>
+                    <li><a href="./indexjv.php">Jeux-Vidéos</a></li>
                 </ul>
             </li>
-            <li><button class="deposer"><a class="annonce"href="#">Deposer une annonce</a></button></li>
+            <li>
+        <?php
+        if(isset($_SESSION['username'])){
+        echo '<button class="deposer"><a class="annonce" href="./Include/deco_exe.php">Déconnexion</a></button>';
+        echo '<button class="deposer"><a class="annonce" href="./Include/gestionannonce/confirm_connect.php">Espace Membre</a></button>';
+        }
+        else{
+          echo '<button class="deposer"><a class="annonce" href="./connexion.php">Connexion</a></button>';
+        }
+        ?></li>
         </ul>
     </div>
 </nav>
