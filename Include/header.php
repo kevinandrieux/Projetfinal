@@ -76,15 +76,28 @@
         <input type="checkbox" id="mobile" role='button'>
         
         <ul>
-            <li><a href="#">Accueil</a></li>
-            <li class='deroulant'><a href="#">Liste Annonce</a>
+            <li><a href="./index.php">Accueil</a></li>
+            <li class='deroulant'><a href="./Sport.php">Sport</a>
                 <ul class="sous">
-                    <li><a href="#">Berck</a></li>
-                    <li><a href="#">Etaples</a></li>
-                    <li><a href="#">Touquet</a></li>
+                <li><a href="./sports_collectifs.php">Sports collectifs</a></li>
+              <li> <a href="./sports_individuels.php">Sports individuels</a></li>
+              <li><a href="./sport_raquette.php">Sports de raquette</a></li>
                 </ul>
             </li>
-            <li><button class="deposer"><a class="annonce"href="#">Deposer une annonce</a></button></li>
+            <li class='deroulant'><a href="./indexinfo.php">Informtique</a>
+                <ul class="sous">
+                <li><a href="./indexinfo_port.php">Ordinateurs Portables</a></li>
+              <li><a href="./indexinfo_fix.php">Ordinateurs Fixes</a></li>
+              <li><a href="./indexinfo_periph.php">Périphériques & Accessoires</a></li>
+                </ul>
+            </li><li class='deroulant'><a href="#">Jeux Video</a>
+                <ul class="sous">
+                <li><a href="./indexjv_console.php">Console</a></li>
+              <li><a href="./indexjv_jeux.php">Jeux</a></li>
+              <li><a href="./indexjv_access.php">Accessoires</a></li>
+                </ul>
+            </li>
         </ul>
+    </div>  
     </div>
 </nav>
