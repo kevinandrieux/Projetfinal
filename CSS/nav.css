@@ -543,6 +543,9 @@ nav a {
   .resp {
     z-index: 999;
   }
+  .title_info {
+    padding: 70px;
+  }
 }
 
 .container_indexinfo {
@@ -569,6 +572,7 @@ nav a {
           align-items: center;
   position: relative;
   padding: auto;
+  margin: 0;
 }
 
 .card-container_indexinfo {

@@ -456,6 +456,10 @@ nav a{
   .resp {
     z-index: 999;
   }
+  .title_info {
+    padding: 70px;
+    
+  }
 
 }
 .title_info{
@@ -479,6 +483,8 @@ nav a{
   align-items: center;
   position: relative;
   padding: auto;
+  margin: 0;
+  
 }
 .card-container_indexinfo {
   padding-top: 0;
@@ -526,7 +532,14 @@ nav a{
   color:white;
 }
 
-
+.title_info{
+  font-size: 60px;
+  background: -webkit-linear-gradient(80deg, rgba(128,8,32,1) 16%, rgba(135,43,118,1) 51%, rgba(34,52,132,1) 84%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-bottom:45px;
+  z-index: 1;
+}
 
 #insc_link{
   color: white;
