@@ -461,7 +461,8 @@ nav a{
     z-index: 999;
   }
   .title_info {
-    padding: 70px;
+    padding: 70px!important;
+  
     
   }
 
@@ -538,6 +539,7 @@ nav a{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   padding-bottom:45px;
+  
   z-index: 1;
 }
 

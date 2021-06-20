@@ -544,7 +544,7 @@ nav a {
     z-index: 999;
   }
   .title_info {
-    padding: 70px;
+    padding: 70px !important;
   }
 }
 
