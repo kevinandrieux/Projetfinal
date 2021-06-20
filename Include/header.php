@@ -23,8 +23,7 @@
     <h1 style="color: white;">Bienvenue sur Occa'z</h1>
     <p style="color: white; padding-bottom: 12px;" >le meilleur site Occa'z</p>
  
-    <ul class="hList">
-       
+    <ul class="hList"> 
         <li>
           <li class="menu">
             <a href="./indexinfo.php" class="menu-title menu-title_2nd"><h2>Informatique</h2></a>

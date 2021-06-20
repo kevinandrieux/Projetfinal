@@ -2,9 +2,7 @@
     include ('./Include/header.php');
 ?>
 <div class="container_indexinfo">
-
 <h1 class="title_info">Matériel Informatique</h1>
-
 <div class="card-container_indexinfo">
     <div class="hover_indexinfo">
             <a href="./indexinfo_port.php">
@@ -16,7 +14,6 @@
                 </div>
             </a>
         </div>
-
     <div class="hover_indexinfo">
             <a href="./indexinfo_fix.php">
                 <div class="card_indexinfo">
@@ -27,7 +24,6 @@
                 </div>
             </a>
         </div>
-
     <div class="hover_indexinfo">
             <a href="./indexinfo_periph.php">
                 <div class="card_indexinfo">
@@ -40,10 +36,6 @@
     </div>
 </div>
 </div>
-
-
-
-
 <?php
     include ('./Include/footer.php');
 ?>
