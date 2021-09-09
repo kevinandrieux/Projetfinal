@@ -1,12 +1,10 @@
 <link rel="stylesheet" href="../../CSS/nav.css">
 <?php
-
 include '../header_membre.php';
 
 $id =$_GET['id'];
 
     if(!empty($_POST)){
-
         
         require "../database.php";
         $req = $pdo->prepare("UPDATE annonces SET nom = ?, description = ?, prix = ? WHERE id = ?");
@@ -16,7 +14,6 @@ $id =$_GET['id'];
          $_POST['prix'], $id));
         header('location: ./confirm_connect.php');
     };
-
 ?>
 <div style="display: flex; justify-content: center;padding: 40px 0px 0px; ">
 <div class="formulaire">

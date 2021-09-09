@@ -28,17 +28,12 @@
                   
                 </div>
             </div>
-          </a>
-';
+          </a>';
         }
-
 ?>
-
 </section>
 <?php include './asside.php';?>
 </main>
-
-
 <?php
     include './Include/footer.php';
 ?>

@@ -32,14 +32,8 @@
                 exit();
             }else{
                 echo'échec envoi photo';
-            }
-           
-            
+            }   
         }
-    
-
-        
-        
     }
 }else {
     header('location: ../../connexion.php');

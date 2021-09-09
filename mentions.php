@@ -14,7 +14,7 @@ include "./Include/header.php"
 <br>
 
 <h2 class="titre_mentions">Responsables du site</h2>
-<p>Aurélien Caron, Kévin Andrieux, Antoine Vérin</p>
+<p>Kévin Andrieux, Antoine Vérin</p>
 <br>
 
 <h2 class="titre_mentions">Hébergeur</h2>

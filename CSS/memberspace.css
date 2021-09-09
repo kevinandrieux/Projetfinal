@@ -92,7 +92,6 @@ z-index: 1;
   background: linear-gradient(0deg, rgba(135,43,118,1) 25%, transparent 25%) 0 0 / 0.5em 0.5em, linear-gradient(0deg, rgba(34,52,132,1) 50%, transparent 50%) 0 0 / 1em 1em;
     color: adjust-hue(rgba(135,43,118,1),180);
 }
-
 @keyframes blinds {
   100% {
     background-position: 0 0, 0 -3em;

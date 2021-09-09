@@ -13,6 +13,18 @@ a {
   color: inherit;
 }
 
+footer {
+  position: relative;
+  top: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background: #800820;
+  background: linear-gradient(317deg, #800820 16%, #872b76 51%, #223484 84%);
+}
+
 .menu {
   display: block;
   position: relative;
@@ -25,7 +37,6 @@ a {
   width: 210px;
   height: 40px;
   padding: 12px 0 0;
-  background: #9dc852;
   text-align: center;
   color: #ffffff;
   font-weight: bold;
@@ -38,7 +49,6 @@ a {
   content: "";
   display: block;
   height: 0;
-  border-top: 5px solid #9dc852;
   border-left: 75px solid transparent;
   border-right: 75px solid transparent;
   border-bottom: 0 solid #dddddd;
@@ -48,18 +58,6 @@ a {
   z-index: 9999;
   -webkit-transition: 0.2s 0.2s border-top ease-out, 0.3s border-top-color;
   transition: 0.2s 0.2s border-top ease-out, 0.3s border-top-color;
-}
-
-footer {
-  position: relative;
-  top: 80px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  background: #800820;
-  background: linear-gradient(317deg, #800820 16%, #872b76 51%, #223484 84%);
 }
 
 .menu:hover > .menu-title:before {
@@ -548,12 +546,19 @@ nav a {
   }
 }
 
+.title_info {
+  font-size: 60px;
+  background: -webkit-linear-gradient(80deg, #800820 16%, #872b76 51%, #223484 84%);
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 45px;
+  z-index: 1;
+}
+
 .container_indexinfo {
   background-repeat: no-repeat;
   background-attachment: fixed;
   width: 100%;
   height: 90%;
-  margin-top: 50px;
   height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
